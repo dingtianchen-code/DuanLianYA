@@ -398,11 +398,11 @@ private final class LoopingVideoUIView: UIView {
     private let playerLayer = AVPlayerLayer()
     private var player: AVPlayer?
     private var timeObserver: Any?
-    private var displayLink: CADisplayLink?
+    private var breathingTimer: Timer?
     private var currentURL: URL?
     private var breathStart = CMTime.zero
     private var breathEnd = CMTime.zero
-    private var breathLoopStartTime: CFTimeInterval = 0
+    private var isPlayingBackward = false
 
     init(url: URL) {
         super.init(frame: .zero)
@@ -423,7 +423,7 @@ private final class LoopingVideoUIView: UIView {
 
     func configure(url: URL) {
         guard currentURL != url else {
-            if displayLink == nil {
+            if breathingTimer == nil {
                 player?.play()
             }
             return
@@ -487,32 +487,37 @@ private final class LoopingVideoUIView: UIView {
     }
 
     private func startBreathingLoop() {
-        guard displayLink == nil else { return }
+        guard breathingTimer == nil else { return }
 
-        breathLoopStartTime = CACurrentMediaTime()
-        let link = CADisplayLink(target: self, selector: #selector(updateBreathingFrame))
-        link.preferredFramesPerSecond = 30
-        link.add(to: .main, forMode: .common)
-        displayLink = link
+        isPlayingBackward = true
+        player?.seek(to: breathEnd, toleranceBefore: .zero, toleranceAfter: .zero) { [weak self] _ in
+            self?.player?.rate = -0.6
+        }
+
+        breathingTimer = Timer.scheduledTimer(withTimeInterval: 1.0 / 0.6, repeats: true) { [weak self] _ in
+            self?.toggleBreathingDirection()
+        }
     }
 
     private func stopBreathingLoop() {
-        displayLink?.invalidate()
-        displayLink = nil
+        breathingTimer?.invalidate()
+        breathingTimer = nil
     }
 
-    @objc private func updateBreathingFrame() {
+    private func toggleBreathingDirection() {
         guard let player else { return }
 
-        let loopDuration = 2.0 / 0.6
-        let elapsed = CACurrentMediaTime() - breathLoopStartTime
-        let phase = (elapsed.truncatingRemainder(dividingBy: loopDuration)) / loopDuration
-        let progress = phase < 0.5 ? phase * 2 : (1 - phase) * 2
-        let breathRange = CMTimeGetSeconds(CMTimeSubtract(breathEnd, breathStart))
-        let targetSeconds = CMTimeGetSeconds(breathStart) + breathRange * progress
-        let targetTime = CMTime(seconds: targetSeconds, preferredTimescale: 600)
-
-        player.seek(to: targetTime, toleranceBefore: .zero, toleranceAfter: .zero)
+        if isPlayingBackward {
+            isPlayingBackward = false
+            player.seek(to: breathStart, toleranceBefore: .zero, toleranceAfter: .zero) { [weak player] _ in
+                player?.rate = 0.6
+            }
+        } else {
+            isPlayingBackward = true
+            player.seek(to: breathEnd, toleranceBefore: .zero, toleranceAfter: .zero) { [weak player] _ in
+                player?.rate = -0.6
+            }
+        }
     }
 }
 
