@@ -3,6 +3,9 @@ import SwiftUI
 import UIKit
 
 struct StatsHomeView: View {
+    let showsReferenceTabBar: Bool
+    let onStartWorkout: () -> Void
+
     private let days: [StatsDay] = [
         StatsDay(weekday: "日", day: "10", isToday: false, marker: .none),
         StatsDay(weekday: "今天", day: "11", isToday: true, marker: .ring),
@@ -12,6 +15,11 @@ struct StatsHomeView: View {
         StatsDay(weekday: "五", day: "15", isToday: false, marker: .none),
         StatsDay(weekday: "六", day: "16", isToday: false, marker: .none),
     ]
+
+    init(showsReferenceTabBar: Bool = true, onStartWorkout: @escaping () -> Void = {}) {
+        self.showsReferenceTabBar = showsReferenceTabBar
+        self.onStartWorkout = onStartWorkout
+    }
 
     var body: some View {
         GeometryReader { proxy in
@@ -28,9 +36,11 @@ struct StatsHomeView: View {
                 moreActivitiesSection(metrics: metrics)
                     .padding(.top, metrics.moreActivitiesTop)
 
-                tabBarPlaceholder(metrics: metrics)
-                    .frame(maxHeight: .infinity, alignment: .bottom)
-                    .ignoresSafeArea(edges: .bottom)
+                if showsReferenceTabBar {
+                    tabBarPlaceholder(metrics: metrics)
+                        .frame(maxHeight: .infinity, alignment: .bottom)
+                        .ignoresSafeArea(edges: .bottom)
+                }
             }
         }
         .ignoresSafeArea()
@@ -194,10 +204,13 @@ struct StatsHomeView: View {
                 .frame(height: metrics.tabBarHeight)
                 .frame(maxHeight: .infinity, alignment: .bottom)
 
-            ReferenceImage(name: "stats_center_button")
-                .frame(width: metrics.centerTabSize, height: metrics.centerTabSize)
-                .clipShape(Circle())
-                .position(x: metrics.designCenterX, y: metrics.centerTabCenterY)
+            Button(action: onStartWorkout) {
+                ReferenceImage(name: "stats_center_button")
+                    .frame(width: metrics.centerTabSize, height: metrics.centerTabSize)
+                    .clipShape(Circle())
+            }
+            .buttonStyle(.plain)
+            .position(x: metrics.designCenterX, y: metrics.centerTabCenterY)
 
             TabBarItemPlaceholder(systemName: "heart.circle", title: "统计", isSelected: true, metrics: metrics)
                 .frame(width: metrics.tabItemWidth, height: metrics.tabItemHeight)
@@ -370,7 +383,7 @@ private struct ActivityCardPlaceholder: View {
     }
 }
 
-private struct ReferenceImage: View {
+struct ReferenceImage: View {
     let name: String
 
     var body: some View {

@@ -1,13 +1,21 @@
 import SwiftUI
 
 struct TodayStatusView: View {
+    let title: String
+    let message: String
+
+    init(title: String = "今天照顾身体了吗？", message: String = "每天一点点，身体会记得。") {
+        self.title = title
+        self.message = message
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("今天照顾身体了吗？")
+            Text(title)
                 .font(.appHeadline)
                 .foregroundStyle(Color.appTextPrimary)
 
-            Text("每天一点点，身体会记得。")
+            Text(message)
                 .font(.appBody)
                 .foregroundStyle(Color.appTextSecondary)
         }

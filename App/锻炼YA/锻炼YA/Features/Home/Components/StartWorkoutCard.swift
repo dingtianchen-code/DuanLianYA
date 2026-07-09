@@ -1,10 +1,15 @@
 import SwiftUI
 
 struct StartWorkoutCard: View {
+    let action: () -> Void
+
+    init(action: @escaping () -> Void = {}) {
+        self.action = action
+    }
+
     var body: some View {
-        Button {
-        } label: {
-            Text("开始锻炼")
+        Button(action: action) {
+            Label("开始锻炼", systemImage: "play.fill")
                 .font(.appHeadline)
                 .foregroundStyle(.white)
                 .frame(maxWidth: .infinity)

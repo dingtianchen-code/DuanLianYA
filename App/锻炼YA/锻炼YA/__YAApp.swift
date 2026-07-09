@@ -13,6 +13,15 @@ struct __YAApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
+            User.self,
+            Profile.self,
+            BodyArea.self,
+            Exercise.self,
+            WorkoutSession.self,
+            WorkoutExercise.self,
+            EncouragementAnimation.self,
+            GrowthRecord.self,
+            FlowerState.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
