@@ -5,9 +5,9 @@ Version: 1.0
 
 # 1. 设计理念
 
-锻炼YA的视觉核心：
+锻炼YA的体验核心：
 
-自然、生长、陪伴。
+鸭子姿态、轻松开始、陪伴。
 
 
 设计目标：
@@ -39,24 +39,56 @@ Version: 1.0
 # 2. 核心视觉符号
 
 
-## 身体之花 Flower
+## Duck Home 鸭子姿态
 
-身体之花是首页核心视觉。
+鸭子是首页课程入口的核心交互主角。
 
+Visual Reference：
 
-含义：
+`/Users/dave/Desktop/745A572E-2A49-4163-942D-708426833444.png`
 
-不同身体区域的训练积累，
-最终形成整体成长。
+参考图用于记录当前 Duck Home 首页视觉基准。
+它不是立即实现 UI 的要求。
 
+角色原则：
 
-花不是：
+- 首页核心角色是鸭子 Duck Mascot
+- 鸭子不是装饰元素
+- 鸭子是用户进入训练体验的交互入口
+- 用户通过鸭子的姿态变化理解 Standing / Sitting / Lying 三种身体照顾状态
 
-成绩排名。
+默认状态：
 
-而是：
+- 站立，对应 Standing Care
 
-身体觉察和长期坚持的可视化。
+向左滑动：
+
+- 坐在椅子上，对应 Sitting Care
+
+向右滑动：
+
+- 躺在床上，对应 Lying Care
+
+姿态对应：
+
+- Standing：适合站姿 Care Routine
+- Sitting：适合坐姿 Care Routine
+- Lying：适合躺姿 Care Routine
+
+设计目的：
+
+让用户先通过姿态理解“我现在应该用什么姿势照顾身体”，
+而不是先理解运动目标或身体部位知识。
+
+视觉方向：
+
+- 温暖
+- 轻松
+- 陪伴感
+- 低压力
+- 面向全年龄用户
+- 不强调健身竞技
+- 强调日常身体照顾
 
 
 
@@ -168,7 +200,9 @@ Version: 1.0
 
 核心组件：
 
-FlowerView
+DuckHomeView
+
+PostureInteractionView
 
 WorkoutCard
 
@@ -188,7 +222,7 @@ AnimationView
 
 例如：
 
-FlowerView
+DuckHomeView
 
 不应该包含：
 

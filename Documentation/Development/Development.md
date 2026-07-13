@@ -141,7 +141,9 @@ HomeView.swift
 
 应该拆分：
 
-FlowerView
+DuckHomeView
+
+PostureInteractionView
 
 GrowthCard
 
@@ -187,7 +189,7 @@ Views
 
 新增功能：
 
-feat: add flower view
+feat: add duck posture interaction
 
 
 修复：
@@ -213,11 +215,25 @@ docs: update architecture
 
 包括：
 
-选择训练
+Duck Home
 
 ↓
 
-完成动作
+选择姿态
+
+Standing / Sitting / Lying
+
+↓
+
+选择身体区域
+
+↓
+
+进入 Care Routine
+
+↓
+
+完成动作视频
 
 ↓
 
@@ -226,10 +242,6 @@ docs: update architecture
 ↓
 
 成长记录
-
-↓
-
-身体之花
 
 
 

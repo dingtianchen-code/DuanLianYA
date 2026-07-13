@@ -28,15 +28,23 @@ Version: 1.0
 
 ↓
 
-训练
+姿态入口
 
 ↓
 
-成长
+身体区域
 
 ↓
 
-身体之花
+Care Routine
+
+↓
+
+动作视频
+
+↓
+
+成长记录
 
 
 
@@ -70,7 +78,6 @@ updatedAt
 - Profile
 - WorkoutSession
 - GrowthRecord
-- FlowerState
 
 
 
@@ -125,12 +132,156 @@ trainingGoal
 
 用途：
 
-连接动作和身体区域。
+作为姿态入口之后的第二层选择。
+
+用户先选择站、坐、躺，
+再选择想照顾的身体区域。
 
 
 ---
 
-# 5. Exercise 动作库
+# 5. Posture 姿态
+
+
+描述：
+
+锻炼YA一级课程入口。
+
+姿态不是动作筛选条件，
+而是首页鸭子交互状态对应的课程入口。
+
+
+枚举：
+
+standing
+
+sitting
+
+lying
+
+
+展示名称：
+
+- Standing Care
+- Sitting Care
+- Lying Care
+
+
+关系：
+
+一个 Posture 对应：
+
+- DuckState
+- 多个 CareRoutine
+- 多个 Exercise
+
+
+用途：
+
+帮助用户不依赖运动知识，
+直接通过“我现在是站着、坐着、躺着”进入身体照顾。
+
+
+---
+
+# 6. DuckState 鸭子状态
+
+
+描述：
+
+首页鸭子当前姿态状态。
+
+
+字段：
+
+id
+
+posture
+
+displayName
+
+assetName
+
+sortOrder
+
+
+状态：
+
+- standing：鸭子站立
+- sitting：鸭子坐在椅子上
+- lying：鸭子躺在床上
+
+
+关系：
+
+一个 DuckState 绑定一个 Posture。
+
+
+用途：
+
+驱动首页姿态交互，
+让用户通过鸭子的身体状态理解课程入口。
+
+
+---
+
+# 7. CareRoutine 照顾课程
+
+
+描述：
+
+由同一姿态入口下的一组动作组成。
+
+CareRoutine 不应只按身体部位组织，
+必须绑定 Posture。
+
+
+字段：
+
+id
+
+title
+
+posture
+
+bodyAreaID
+
+duration
+
+sortOrder
+
+
+关系：
+
+一个 CareRoutine：
+
+- 属于一个 Posture
+- 可关联一个 BodyArea
+- 包含多个 Exercise
+
+
+用途：
+
+承接用户路径：
+
+Posture Interaction
+
+↓
+
+Body Area Selection
+
+↓
+
+Care Routine
+
+↓
+
+Exercise Video
+
+
+---
+
+# 8. Exercise 动作库
 
 
 描述：
@@ -146,6 +297,8 @@ name
 
 category
 
+posture
+
 difficulty
 
 duration
@@ -159,11 +312,14 @@ description
 
 一个动作可以对应多个身体区域。
 
+一个动作必须声明主要 Posture，
+用于从 Standing / Sitting / Lying 入口导入和编排课程。
+
 
 
 ---
 
-# 6. WorkoutSession 训练记录
+# 9. WorkoutSession 训练记录
 
 
 描述：
@@ -181,18 +337,24 @@ completed
 
 exerciseCount
 
+posture
+
+careRoutineID
+
 
 记录：
 
 - 训练时间
 - 完成状态
+- 本次使用的姿态入口
+- 本次 Care Routine
 - 使用动作
 
 
 
 ---
 
-# 7. WorkoutExercise 训练动作
+# 10. WorkoutExercise 训练动作
 
 
 描述：
@@ -216,7 +378,7 @@ completed
 
 ---
 
-# 8. EncouragementAnimation 鼓励动画
+# 11. EncouragementAnimation 鼓励动画
 
 
 描述：
@@ -258,7 +420,7 @@ text
 
 ---
 
-# 9. GrowthRecord 成长记录
+# 12. GrowthRecord 成长记录
 
 
 描述：
@@ -287,36 +449,6 @@ note
 
 ---
 
-# 10. FlowerState 身体之花
-
-
-描述：
-
-用户成长可视化。
-
-
-字段：
-
-date
-
-season
-
-totalPetals
-
-openedPetals
-
-flowerData
-
-
-作用：
-
-展示：
-
-身体之花变化。
-
-
----
-
 # MVP核心数据表
 
 
@@ -328,6 +460,12 @@ Profile
 
 BodyArea
 
+Posture
+
+DuckState
+
+CareRoutine
+
 Exercise
 
 WorkoutSession
@@ -337,8 +475,6 @@ WorkoutExercise
 EncouragementAnimation
 
 GrowthRecord
-
-FlowerState
 
 
 未来扩展：

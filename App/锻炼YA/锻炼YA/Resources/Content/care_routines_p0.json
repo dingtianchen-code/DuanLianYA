@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.2.0-p0-video-validated",
+  "locale": "zh-Hans",
+  "importTarget": "SwiftData",
+  "routines": [
+    {
+      "id": "routine_p0_neck_shoulder_daily_care",
+      "bodyAreaId": "neck_shoulder",
+      "bodyAreaName": "颈肩",
+      "sortOrder": 10,
+      "estimatedTotalSeconds": {
+        "value": 135,
+        "derived": true
+      },
+      "exerciseRefs": [
+        {
+          "order": 1,
+          "exerciseId": "ex_neck_shoulder_lying_001",
+          "exerciseName": "额头悬空一寸",
+          "videoIds": [
+            "drive_video_124_1KBPa-1E"
+          ]
+        },
+        {
+          "order": 2,
+          "exerciseId": "ex_neck_shoulder_lying_002",
+          "exerciseName": "小天鹅",
+          "videoIds": [
+            "drive_video_123_12s0ieW7"
+          ]
+        },
+        {
+          "order": 3,
+          "exerciseId": "ex_neck_shoulder_lying_003",
+          "exerciseName": "枕悬空一寸",
+          "videoIds": [
+            "drive_video_122_1Jz4HE0n"
+          ]
+        }
+      ],
+      "selectionRule": {
+        "derived": true,
+        "text": "Select up to three existing catalog exercises with matched Google Drive video assets; do not create exercises from unmatched videos."
+      },
+      "videoValidationStatus": "video_matched_only"
+    },
+    {
+      "id": "routine_p0_back_daily_care",
+      "bodyAreaId": "back",
+      "bodyAreaName": "背部",
+      "sortOrder": 20,
+      "estimatedTotalSeconds": {
+        "value": 135,
+        "derived": true
+      },
+      "exerciseRefs": [
+        {
+          "order": 1,
+          "exerciseId": "ex_back_lying_002",
+          "exerciseName": "大天鹅",
+          "videoIds": [
+            "drive_video_094_12G3TG6-"
+          ]
+        },
+        {
+          "order": 2,
+          "exerciseId": "ex_back_lying_003",
+          "exerciseName": "稻草人",
+          "videoIds": [
+            "drive_video_093_1YekbI0Z"
+          ]
+        },
+        {
+          "order": 3,
+          "exerciseId": "ex_back_lying_006",
+          "exerciseName": "小天鹅",
+          "videoIds": [
+            "drive_video_090_10qC75vp"
+          ]
+        }
+      ],
+      "selectionRule": {
+        "derived": true,
+        "text": "Select up to three existing catalog exercises with matched Google Drive video assets; do not create exercises from unmatched videos."
+      },
+      "videoValidationStatus": "video_matched_only"
+    },
+    {
+      "id": "routine_p0_chest_daily_care",
+      "bodyAreaId": "chest",
+      "bodyAreaName": "胸部",
+      "sortOrder": 30,
+      "estimatedTotalSeconds": {
+        "value": 210,
+        "derived": true
+      },
+      "exerciseRefs": [
+        {
+          "order": 1,
+          "exerciseId": "ex_chest_lying_002",
+          "exerciseName": "仰卧飞鸟",
+          "videoIds": [
+            "drive_video_068_1sMLF1dH"
+          ]
+        },
+        {
+          "order": 2,
+          "exerciseId": "ex_chest_standing_001",
+          "exerciseName": "扶门扩胸",
+          "videoIds": [
+            "drive_video_067_1tTO5Nq2"
+          ]
+        },
+        {
+          "order": 3,
+          "exerciseId": "ex_chest_standing_002",
+          "exerciseName": "交替出拳",
+          "videoIds": [
+            "drive_video_066_1iPX9PiU"
+          ]
+        }
+      ],
+      "selectionRule": {
+        "derived": true,
+        "text": "Select up to three existing catalog exercises with matched Google Drive video assets; do not create exercises from unmatched videos."
+      },
+      "videoValidationStatus": "video_matched_only"
+    },
+    {
+      "id": "routine_p0_core_daily_care",
+      "bodyAreaId": "core",
+      "bodyAreaName": "腰腹",
+      "sortOrder": 40,
+      "estimatedTotalSeconds": {
+        "value": 135,
+        "derived": true
+      },
+      "exerciseRefs": [
+        {
+          "order": 1,
+          "exerciseId": "ex_core_lying_003",
+          "exerciseName": "腹式呼吸",
+          "videoIds": [
+            "drive_video_117_1WmFrmJk"
+          ]
+        },
+        {
+          "order": 2,
+          "exerciseId": "ex_core_lying_013",
+          "exerciseName": "直抬腿",
+          "videoIds": [
+            "drive_video_107_1fPEMna8"
+          ]
+        },
+        {
+          "order": 3,
+          "exerciseId": "ex_core_seated_001",
+          "exerciseName": "伸懒腰",
+          "videoIds": [
+            "drive_video_106_16EG4Gju"
+          ]
+        }
+      ],
+      "selectionRule": {
+        "derived": true,
+        "text": "Select up to three existing catalog exercises with matched Google Drive video assets; do not create exercises from unmatched videos."
+      },
+      "videoValidationStatus": "video_matched_only"
+    },
+    {
+      "id": "routine_p0_hips_daily_care",
+      "bodyAreaId": "hips",
+      "bodyAreaName": "臀部",
+      "sortOrder": 50,
+      "estimatedTotalSeconds": {
+        "value": 210,
+        "derived": true
+      },
+      "exerciseRefs": [
+        {
+          "order": 1,
+          "exerciseId": "ex_hips_lying_002",
+          "exerciseName": "蚌式",
+          "videoIds": [
+            "drive_video_053_1Fl5K2Ji"
+          ]
+        },
+        {
+          "order": 2,
+          "exerciseId": "ex_hips_lying_005",
+          "exerciseName": "俯身后蹬腿",
+          "videoIds": [
+            "drive_video_051_1bmjD8dT"
+          ]
+        },
+        {
+          "order": 3,
+          "exerciseId": "ex_hips_lying_009",
+          "exerciseName": "臀桥",
+          "videoIds": [
+            "drive_video_046_1maQuzxG"
+          ]
+        }
+      ],
+      "selectionRule": {
+        "derived": true,
+        "text": "Select up to three existing catalog exercises with matched Google Drive video assets; do not create exercises from unmatched videos."
+      },
+      "videoValidationStatus": "video_matched_only"
+    },
+    {
+      "id": "routine_p0_thighs_daily_care",
+      "bodyAreaId": "thighs",
+      "bodyAreaName": "大腿",
+      "sortOrder": 60,
+      "estimatedTotalSeconds": {
+        "value": 120,
+        "derived": true
+      },
+      "exerciseRefs": [
+        {
+          "order": 1,
+          "exerciseId": "ex_thighs_lying_007",
+          "exerciseName": "伸膝保持",
+          "videoIds": [
+            "drive_video_031_15oKV4-S"
+          ]
+        },
+        {
+          "order": 2,
+          "exerciseId": "ex_thighs_lying_009",
+          "exerciseName": "直抬腿",
+          "videoIds": [
+            "drive_video_028_17BT3R1f"
+          ]
+        },
+        {
+          "order": 3,
+          "exerciseId": "ex_thighs_lying_010",
+          "exerciseName": "坐姿体前屈",
+          "videoIds": [
+            "drive_video_027_1511KmiV"
+          ]
+        }
+      ],
+      "selectionRule": {
+        "derived": true,
+        "text": "Select up to three existing catalog exercises with matched Google Drive video assets; do not create exercises from unmatched videos."
+      },
+      "videoValidationStatus": "video_matched_only"
+    },
+    {
+      "id": "routine_p0_calves_daily_care",
+      "bodyAreaId": "calves",
+      "bodyAreaName": "小腿",
+      "sortOrder": 70,
+      "estimatedTotalSeconds": {
+        "value": 225,
+        "derived": true
+      },
+      "exerciseRefs": [
+        {
+          "order": 1,
+          "exerciseId": "ex_calves_lying_001",
+          "exerciseName": "仰卧抬高勾脚",
+          "videoIds": [
+            "drive_video_010_1kZKFIDt"
+          ]
+        },
+        {
+          "order": 2,
+          "exerciseId": "ex_calves_standing_002",
+          "exerciseName": "站姿提踵",
+          "videoIds": [
+            "drive_video_008_1Viznv_y"
+          ]
+        },
+        {
+          "order": 3,
+          "exerciseId": "ex_calves_seated_001",
+          "exerciseName": "绷脚尖",
+          "videoIds": [
+            "drive_video_007_1DzLYkw0"
+          ]
+        }
+      ],
+      "selectionRule": {
+        "derived": true,
+        "text": "Select up to three existing catalog exercises with matched Google Drive video assets; do not create exercises from unmatched videos."
+      },
+      "videoValidationStatus": "video_matched_only"
+    }
+  ]
+}
