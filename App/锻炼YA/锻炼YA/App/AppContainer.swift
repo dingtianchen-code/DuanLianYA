@@ -1,131 +1,81 @@
 import SwiftUI
 
 struct AppContainer: View {
-    @State private var selectedModule: AppModule = .stats
+    @State private var path: [AppDestination] = []
 
     var body: some View {
-        ZStack(alignment: .bottom) {
-            currentModuleView
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-
-            MainNavigationBar(selectedModule: $selectedModule)
+        NavigationStack(path: $path) {
+            HomeView(
+                onStartCare: { posture in
+                    path.append(.careRecommendation(posture))
+                },
+                onOpenBodyAreas: {
+                    path.append(.bodyAreaSelection)
+                },
+                onOpenHistory: {
+                    path.append(.trainingHistory)
+                },
+                onOpenGrowth: {
+                    path.append(.duckGrowth)
+                }
+            )
+            .navigationDestination(for: AppDestination.self) { destination in
+                destinationView(for: destination)
+            }
         }
     }
 
     @ViewBuilder
-    private var currentModuleView: some View {
-        switch selectedModule {
-        case .stats:
-            StatsHomeView(showsReferenceTabBar: false) {
-                selectedModule = .workout
-            }
-        case .workout:
-            NavigationStack {
-                WorkoutView()
-            }
-        case .growth:
-            NavigationStack {
-                GrowthView()
-            }
+    private func destinationView(for destination: AppDestination) -> some View {
+        switch destination {
+        case let .careRecommendation(posture):
+            FutureFeaturePlaceholder(
+                title: "\(posture.displayName) 动作推荐",
+                message: "后续将在这里接入与姿态匹配的 Care Routine。",
+                systemImage: "figure.flexibility"
+            )
+        case .bodyAreaSelection:
+            FutureFeaturePlaceholder(
+                title: "身体部位选择",
+                message: "后续将在这里选择今天想照顾的身体部位。",
+                systemImage: "figure.arms.open"
+            )
+        case .trainingHistory:
+            FutureFeaturePlaceholder(
+                title: "训练记录",
+                message: "后续将在这里展示已完成的身体照顾记录。",
+                systemImage: "clock.arrow.circlepath"
+            )
+        case .duckGrowth:
+            FutureFeaturePlaceholder(
+                title: "鸭子成长",
+                message: "后续将在这里呈现鸭子的成长与陪伴反馈。",
+                systemImage: "sparkles"
+            )
         }
     }
 }
 
-enum AppModule: Hashable {
-    case stats
-    case workout
-    case growth
-
-    var title: String {
-        switch self {
-        case .stats: "统计"
-        case .workout: "训练"
-        case .growth: "成长"
-        }
-    }
-
-    var systemImage: String {
-        switch self {
-        case .stats: "heart.circle"
-        case .workout: "figure.flexibility"
-        case .growth: "camera.macro"
-        }
-    }
+private enum AppDestination: Hashable {
+    case careRecommendation(DuckPosture)
+    case bodyAreaSelection
+    case trainingHistory
+    case duckGrowth
 }
 
-private struct MainNavigationBar: View {
-    @Binding var selectedModule: AppModule
+private struct FutureFeaturePlaceholder: View {
+    let title: String
+    let message: String
+    let systemImage: String
 
     var body: some View {
-        HStack(alignment: .bottom) {
-            MainNavigationItem(
-                module: .stats,
-                selectedModule: $selectedModule
-            )
-
-            Spacer()
-
-            Button {
-                selectedModule = .workout
-            } label: {
-                ReferenceImage(name: "stats_center_button")
-                    .frame(width: 62, height: 62)
-                    .clipShape(Circle())
-                    .shadow(color: Color.appPrimary.opacity(0.22), radius: 12, y: 4)
-                    .accessibilityLabel(AppModule.workout.title)
-            }
-            .buttonStyle(.plain)
-            .offset(y: -18)
-
-            Spacer()
-
-            MainNavigationItem(
-                module: .growth,
-                selectedModule: $selectedModule
-            )
-        }
-        .padding(.horizontal, 44)
-        .padding(.top, 12)
-        .padding(.bottom, 18)
-        .frame(maxWidth: .infinity)
-        .background {
-            UnevenRoundedRectangle(
-                topLeadingRadius: 20,
-                bottomLeadingRadius: 0,
-                bottomTrailingRadius: 0,
-                topTrailingRadius: 20,
-                style: .continuous
-            )
-            .fill(.white)
-            .shadow(color: .black.opacity(0.06), radius: 18, y: -8)
-            .ignoresSafeArea(edges: .bottom)
-        }
-    }
-}
-
-private struct MainNavigationItem: View {
-    let module: AppModule
-    @Binding var selectedModule: AppModule
-
-    private var isSelected: Bool {
-        selectedModule == module
-    }
-
-    var body: some View {
-        Button {
-            selectedModule = module
-        } label: {
-            VStack(spacing: 4) {
-                Image(systemName: module.systemImage)
-                    .font(.system(size: 22, weight: isSelected ? .semibold : .regular))
-
-                Text(module.title)
-                    .font(.appCaption)
-            }
-            .foregroundStyle(isSelected ? Color.appPrimary : Color.appTextSecondary)
-            .frame(width: 68, height: 44)
-        }
-        .buttonStyle(.plain)
+        ContentUnavailableView(
+            title,
+            systemImage: systemImage,
+            description: Text(message)
+        )
+        .navigationTitle(title)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

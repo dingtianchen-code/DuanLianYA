@@ -6,14 +6,36 @@
 //
 
 import Testing
-@testable import __YA
+@testable import 锻炼YA
 
 struct __YATests {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-        // Swift Testing Documentation
-        // https://developer.apple.com/documentation/testing
+    @Test @MainActor
+    func duckHomeStartsStanding() {
+        let viewModel = HomeViewModel()
+
+        #expect(viewModel.selectedPosture == .standing)
+    }
+
+    @Test @MainActor
+    func duckHomeSwitchesPostureWithHorizontalSwipes() {
+        let viewModel = HomeViewModel()
+
+        viewModel.handleSwipe(translation: -80)
+        #expect(viewModel.selectedPosture == .sitting)
+
+        viewModel.select(.standing)
+        viewModel.handleSwipe(translation: 80)
+        #expect(viewModel.selectedPosture == .lying)
+    }
+
+    @Test @MainActor
+    func shortDragDoesNotSwitchPosture() {
+        let viewModel = HomeViewModel()
+
+        viewModel.handleSwipe(translation: 20)
+
+        #expect(viewModel.selectedPosture == .standing)
     }
 
 }
