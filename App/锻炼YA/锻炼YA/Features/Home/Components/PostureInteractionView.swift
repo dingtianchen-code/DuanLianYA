@@ -6,129 +6,160 @@ struct PostureInteractionView: View {
     let onSwipe: (Double) -> Void
 
     var body: some View {
-        VStack(spacing: AppSpacing.medium) {
-            ZStack {
-                RoundedRectangle(cornerRadius: 32, style: .continuous)
-                    .fill(.white.opacity(0.72))
+        ZStack {
+            landscape
 
-                DuckPosturePlaceholder(posture: selectedPosture)
-                    .id(selectedPosture)
-            }
-            .frame(height: 330)
-            .contentShape(Rectangle())
-            .gesture(
-                DragGesture(minimumDistance: 18)
-                    .onEnded { value in
-                        onSwipe(value.translation.width)
-                    }
-            )
-            .accessibilityElement(children: .combine)
-            .accessibilityLabel("鸭子当前姿态：\(selectedPosture.displayName)")
-            .accessibilityHint("左右滑动可切换姿态")
+            speechBubble
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                .padding(.top, 4)
 
-            VStack(spacing: 6) {
-                Text(selectedPosture.displayName)
-                    .font(.appHeadline)
-                    .foregroundStyle(Color.appTextPrimary)
+            duck
+                .id(selectedPosture)
+                .frame(maxHeight: .infinity, alignment: .bottom)
+                .padding(.bottom, 18)
 
-                Text(selectedPosture.guidance)
-                    .font(.appCaption)
-                    .foregroundStyle(Color.appTextSecondary)
-                    .multilineTextAlignment(.center)
-                    .frame(maxWidth: 300)
-            }
-
-            posturePicker
-
-            Label("左右滑动切换鸭子姿态", systemImage: "arrow.left.and.right")
-                .font(.appCaption)
-                .foregroundStyle(Color.appTextSecondary)
+            durationCard
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                .padding(.bottom, 44)
         }
+        .frame(height: 350)
+        .contentShape(Rectangle())
+        .gesture(
+            DragGesture(minimumDistance: 18)
+                .onEnded { onSwipe($0.translation.width) }
+        )
+        .accessibilityElement(children: .contain)
+        .accessibilityLabel("鸭鸭正在\(selectedPosture.displayName)，推荐今天照顾腰背")
+        .accessibilityHint("左右滑动可以看看鸭鸭的其他姿态")
     }
 
-    private var posturePicker: some View {
-        HStack(spacing: AppSpacing.small) {
-            ForEach(DuckPosture.allCases) { posture in
-                Button {
-                    onSelect(posture)
-                } label: {
-                    Text(posture.displayName)
-                        .font(.appCaption.weight(.medium))
-                        .foregroundStyle(
-                            posture == selectedPosture ? Color.white : Color.appTextSecondary
-                        )
-                        .padding(.horizontal, 14)
-                        .padding(.vertical, 9)
-                        .background(
-                            posture == selectedPosture ? Color.appPrimary : Color.white.opacity(0.72),
-                            in: Capsule()
-                        )
-                }
-                .buttonStyle(.plain)
-                .accessibilityAddTraits(posture == selectedPosture ? .isSelected : [])
+    private var speechBubble: some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text("今天来做")
+            Text("腰背舒展")
+                .foregroundStyle(Color(red: 0.96, green: 0.65, blue: 0.03))
+                .fontWeight(.bold)
+            Text("怎么样？")
+        }
+        .font(.system(size: 18, weight: .medium, design: .rounded))
+        .foregroundStyle(Color(red: 0.14, green: 0.14, blue: 0.13))
+        .padding(.horizontal, 20)
+        .padding(.vertical, 14)
+        .background(.white.opacity(0.92), in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .shadow(color: .black.opacity(0.08), radius: 12, y: 5)
+    }
+
+    private var durationCard: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Image(systemName: "clock.fill")
+                .font(.system(size: 22))
+                .foregroundStyle(Color(red: 1.0, green: 0.76, blue: 0.12))
+            Text("5 分钟")
+                .font(.system(size: 18, weight: .bold, design: .rounded))
+            Text("轻松照顾")
+                .font(.system(size: 13, weight: .medium, design: .rounded))
+                .foregroundStyle(.secondary)
+        }
+        .padding(15)
+        .background(.white.opacity(0.9), in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .shadow(color: .black.opacity(0.08), radius: 12, y: 6)
+    }
+
+    private var duck: some View {
+        ZStack {
+            if selectedPosture == .sitting {
+                Image(systemName: "chair.lounge.fill")
+                    .font(.system(size: 92))
+                    .foregroundStyle(Color(red: 0.87, green: 0.70, blue: 0.36).opacity(0.65))
+                    .offset(x: 35, y: 25)
+            } else if selectedPosture == .lying {
+                Image(systemName: "bed.double.fill")
+                    .font(.system(size: 92))
+                    .foregroundStyle(Color(red: 0.87, green: 0.70, blue: 0.36).opacity(0.55))
+                    .offset(y: 24)
             }
+
+            DuckMascotPlaceholder()
+                .frame(width: 190, height: 210)
+                .rotationEffect(selectedPosture == .lying ? .degrees(76) : .zero)
+                .offset(x: selectedPosture == .sitting ? -18 : 0, y: selectedPosture == .lying ? 24 : 0)
+        }
+        .frame(width: 250, height: 220)
+        .shadow(color: Color.orange.opacity(0.14), radius: 14, y: 10)
+    }
+
+    private var landscape: some View {
+        ZStack(alignment: .bottom) {
+            Ellipse()
+                .fill(Color(red: 0.96, green: 0.82, blue: 0.36).opacity(0.28))
+                .frame(width: 270, height: 36)
+
+            HStack(alignment: .bottom, spacing: 26) {
+                Circle().fill(Color.yellow.opacity(0.10)).frame(width: 78, height: 78)
+                Spacer()
+                Capsule().fill(Color.yellow.opacity(0.14)).frame(width: 40, height: 120)
+            }
+            .padding(.bottom, 24)
         }
     }
 }
 
-private struct DuckPosturePlaceholder: View {
-    let posture: DuckPosture
+private struct DuckMascotPlaceholder: View {
+    private let yellow = Color(red: 1.0, green: 0.78, blue: 0.13)
+    private let orange = Color(red: 0.98, green: 0.49, blue: 0.08)
 
     var body: some View {
-        VStack(spacing: 18) {
-            Spacer()
+        ZStack {
+            Ellipse()
+                .fill(yellow)
+                .frame(width: 142, height: 132)
+                .offset(y: 38)
 
-            ZStack(alignment: posture == .lying ? .trailing : .bottom) {
-                scene
+            Circle()
+                .fill(yellow)
+                .frame(width: 112, height: 112)
+                .offset(y: -44)
 
-                Text("🦆")
-                    .font(.system(size: 104))
-                    .rotationEffect(posture == .lying ? .degrees(82) : .zero)
-                    .offset(duckOffset)
+            Ellipse()
+                .fill(yellow.opacity(0.92))
+                .frame(width: 46, height: 82)
+                .rotationEffect(.degrees(-42))
+                .offset(x: -65, y: 20)
+
+            Ellipse()
+                .fill(yellow.opacity(0.88))
+                .frame(width: 42, height: 76)
+                .rotationEffect(.degrees(30))
+                .offset(x: 65, y: 32)
+
+            HStack(spacing: 36) {
+                Circle().fill(Color(red: 0.12, green: 0.11, blue: 0.08)).frame(width: 12, height: 18)
+                Circle().fill(Color(red: 0.12, green: 0.11, blue: 0.08)).frame(width: 12, height: 18)
             }
-            .frame(width: 230, height: 170)
+            .offset(y: -57)
 
-            Text(posture.careName)
-                .font(.appBody.weight(.medium))
-                .foregroundStyle(Color.appTextPrimary)
-
-            Spacer()
-        }
-    }
-
-    @ViewBuilder
-    private var scene: some View {
-        switch posture {
-        case .standing:
             Capsule()
-                .fill(Color.appPrimary.opacity(0.16))
-                .frame(width: 150, height: 18)
-        case .sitting:
-            Image(systemName: "chair.lounge.fill")
-                .font(.system(size: 108))
-                .foregroundStyle(Color.appSecondary.opacity(0.55))
-        case .lying:
-            Image(systemName: "bed.double.fill")
-                .font(.system(size: 96))
-                .foregroundStyle(Color.appSecondary.opacity(0.55))
-        }
-    }
+                .fill(orange)
+                .frame(width: 58, height: 24)
+                .offset(y: -28)
 
-    private var duckOffset: CGSize {
-        switch posture {
-        case .standing: CGSize(width: 0, height: -16)
-        case .sitting: CGSize(width: 15, height: -24)
-        case .lying: CGSize(width: -28, height: -17)
+            HStack(spacing: 34) {
+                Capsule().fill(orange).frame(width: 12, height: 38)
+                Capsule().fill(orange).frame(width: 12, height: 38)
+            }
+            .offset(y: 106)
+
+            HStack(spacing: 18) {
+                Ellipse().fill(orange).frame(width: 44, height: 16)
+                Ellipse().fill(orange).frame(width: 44, height: 16)
+            }
+            .offset(y: 126)
         }
     }
 }
 
 #Preview {
-    PostureInteractionView(
-        selectedPosture: .standing,
-        onSelect: { _ in },
-        onSwipe: { _ in }
-    )
-    .padding()
-    .background(Color.appBackground)
+    PostureInteractionView(selectedPosture: .standing, onSelect: { _ in }, onSwipe: { _ in })
+        .padding()
+        .background(Color(red: 1, green: 0.985, blue: 0.92))
 }

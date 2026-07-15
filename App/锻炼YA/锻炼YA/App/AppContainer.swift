@@ -5,7 +5,7 @@ struct AppContainer: View {
 
     var body: some View {
         NavigationStack(path: $path) {
-            HomeView(
+            DuckHomeView(
                 onStartCare: { posture in
                     path.append(.careRecommendation(posture))
                 },
@@ -28,12 +28,8 @@ struct AppContainer: View {
     @ViewBuilder
     private func destinationView(for destination: AppDestination) -> some View {
         switch destination {
-        case let .careRecommendation(posture):
-            FutureFeaturePlaceholder(
-                title: "\(posture.displayName) 动作推荐",
-                message: "后续将在这里接入与姿态匹配的 Care Routine。",
-                systemImage: "figure.flexibility"
-            )
+        case .careRecommendation:
+            WorkoutView()
         case .bodyAreaSelection:
             FutureFeaturePlaceholder(
                 title: "身体部位选择",
