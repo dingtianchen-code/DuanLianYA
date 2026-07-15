@@ -37,16 +37,38 @@ Animation
 
 ## 2. Sole visual authority
 
-The only valid visual references are:
+The only valid Duck Character visual reference set is:
 
-- `ProductionAssets/Characters/DuckMascot/00_Reference/MasterReference/Duck_MasterReference_V3.png`
-- `ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png`
+1. **Master Reference — Front**
+   - `ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png`
+   - Directly derived from `ProductionAssets/Characters/DuckMascot/00_Reference/MasterReference/Duck_MasterReference_V3.png`.
+   - Front is the sole original visual specification and has the highest authority.
+2. **Approved Turnaround Reference — SideL**
+   - `ProductionAssets/Characters/DuckMascot/00_Reference/ApprovedTurnaroundReference/Duck_SideL_Candidate_v001.png`
+   - Official side-view reference approved by human visual review; it is not an original Master Reference.
+3. **Approved Turnaround Reference — Back**
+   - `ProductionAssets/Characters/DuckMascot/00_Reference/ApprovedTurnaroundReference/Duck_Back_Candidate_v001.png`
+   - Official rear-view reference approved by human visual review; it is not an original Master Reference.
+
+Reference hierarchy:
+
+```text
+Master Reference
+└── Front_MasterCrop.png
+    └── Approved Turnaround Reference
+        ├── SideL — Duck_SideL_Candidate_v001.png
+        └── Back  — Duck_Back_Candidate_v001.png
+```
+
+All future SVG Reconstruction, Illustrator Artwork, Rive Asset, Rig, Animation, Expression Pose and new view-angle work must use this three-view set. Front controls any conflict involving core identity, proportion or design language. SideL and Back control their approved visible view-specific relationships, while remaining subordinate to Front as the original Master Reference.
 
 Old SVG, Preview, Overlay, Difference, Production Artwork, Rive files, Rive assets, Rig outputs and animation outputs must never be reused as visual references.
 
 **Master Reference is specification, not inspiration.**
 
 Do not optimize, reinterpret, redesign, embellish, simplify or technically normalize the character. Production work must faithfully reconstruct the approved design.
+
+Every new visual output must identify: its reference source, which elements are directly referenced, which are design inferences, and which require human approval.
 
 ## 3. Faithful reconstruction
 
@@ -110,6 +132,8 @@ After Freeze, Artwork remains fixed. Animation must adapt to Artwork. If a techn
 The only authorized production task is:
 
 **Step 1 — Head Outline Reconstruction**
+
+This gate must cross-check `Front_MasterCrop.png`, the approved SideL reference and the approved Back reference so that the reconstructed Front head remains compatible with the approved three-view system. Front remains the controlling Master specification.
 
 Not authorized at this gate:
 

@@ -1,21 +1,22 @@
 # 锻炼YA Duck Mascot — Production Character System
 
-> 状态：Layer Blueprint v1.1 作为规范保留；Front Production 已于 2026-07-15 Reset。当前不存在已批准 Artwork、Production SVG、Design Lock、Freeze、Rive Import 或 Rig。
+> 状态：Layer Blueprint v1.1 作为规范保留；Front Production 已于 2026-07-15 Reset。Duck Turnaround Reference Set 已于 2026-07-16 批准，但当前仍不存在已批准 Artwork、Production SVG、Design Lock、Freeze、Rive Import 或 Rig。
 >
 > 长期生产流程以 `DuckCharacterProductionCharter.md` 为最高工作章程；当前唯一授权 Gate 为 `Step 1 — Head Outline Reconstruction`。
 >
-> 唯一视觉标准：`Master Reference / Version 3（最终选定版）`，源图 `9df465a9-fec1-4427-921b-d2a570be34f6.png`。
+> 唯一有效三视图体系：Front `Front_MasterCrop.png` 为唯一原始 Master Reference；`Duck_SideL_Candidate_v001.png` 与 `Duck_Back_Candidate_v001.png` 为 Approved Turnaround Reference，不是 Master Reference。
 
 ## 1. 不可变设计契约
 
 - **Master Reference is not inspiration. It is specification.**
 - **Visual Fidelity First（视觉忠实优先）**：任何 Production Asset、SVG、Rive 与 Rig 都必须以 Master Reference 为最高标准。不得因 Rig、Bone、Mesh、Constraint、Performance、SVG 简化或节点数量改变角色比例、轮廓、五官、体积光影或设计语言。动画实现与角色设计冲突时，必须保留角色设计并更换动画实现方案，而不是修改角色。
-- 所有角色资产只以 Master Reference 为造型依据；本文件不创造新比例或新造型。
+- 所有角色资产只以获批的 Front / SideL / Back 三视图体系为视觉依据；Front Master 对核心身份、比例与设计语言拥有最高优先级。本文件不创造新比例或新造型。
 - 锁定：头身比、整体轮廓、五官位置与间距、三根头羽、翅膀和脚掌造型、尾巴形状、无横线微笑嘴、圆润亲和的设计语言。
 - 锁定基础色：羽毛黄 `#FFD64D`、喙与脚橙 `#FF8A00`、眼/眉深棕 `#3A2E26`、眼白 `#FFFFFF`。
 - 参考图中的柔和明暗属于角色造型的一部分；后续矢量化需建立可复现的渐变 token，不得用随意的新高光、描边或纹理替代。
 - 不得自行添加服装、牙齿、手指、硬描边、写实羽毛、物种细节或改变年龄感。
-- 三视图不是同一张图形的机械镜像：正、侧、背各自按 Master Reference 重建和校验。
+- 三视图不是同一张图形的机械镜像：Front 按 Master Reference 重建；SideL 与 Back 按各自 Approved Turnaround Reference 重建，并同时受 Front 的核心比例与设计语言约束。
+- 新视觉内容必须明示记录来源依据、直接参考部分、设计推导部分与待人工审批部分。
 - Master Reference 的静态表情同样锁定；不得因分层、Rig、矢量清理或小尺寸显示而润色五官、增加轮廓或改变表情。
 - 原图中不可见、被身体遮挡或仅在动作示意中部分出现的结构，不得凭空自由设计。只允许为 Rig 制作“最小必要补全”，并进入单独的隐藏区域验收。
 - 生成式重绘、自动描摹或自动矢量化只能作为分析/草稿辅助，不能直接成为最终 Production Asset。最终路径必须经过人工校准、Master Overlay 和静态验收。
@@ -321,6 +322,7 @@ ProductionAssets/Characters/DuckMascot/
 ├── README.md
 ├── 00_Reference/
 │   ├── MasterReference/
+│   ├── ApprovedTurnaroundReference/
 │   ├── Approvals/
 │   └── ProportionSheets/
 ├── 01_Source/
@@ -355,8 +357,8 @@ ProductionAssets/Characters/DuckMascot/
 ## 10. 版本与验收门槛
 
 - 文件版本：`v{major}.{minor}.{patch}`；造型/比例变更为 major，新增兼容动作或视角为 minor，路径清理或不影响外观的修复为 patch。
-- 上传的三视图是唯一视觉基准；任何生产资产不得自行润色、改比例、移动五官或改变基准表情。闭嘴 Neutral 必须与 Master Reference 完全一致，不得因上下喙拆层增加横线、新嘴角或任何新轮廓。
-- 每个视角、每个版本必须包含与 Master Reference 对照的 Overlay 验收图；Overlay 同时显示基准、重建矢量和差异标记。
+- 获批的 Front / SideL / Back 三视图是唯一视觉基准；任何生产资产不得自行润色、改比例、移动五官或改变基准表情。Front 闭嘴 Neutral 必须与 Master Reference 完全一致，不得因上下喙拆层增加横线、新嘴角或任何新轮廓。
+- 每个视角、每个版本必须包含与该视角对应获批 Reference 的 Overlay 验收图；Overlay 同时显示基准、重建资产和差异标记。
 - 每次发布必须包含：当前获批视角静态截图、关键表情板、Pivot overlay、draw-order 测试、隐藏补全/遮罩测试、极限姿势测试、低速播放测试、运行时预览和变更日志。
 - 不可见或被遮挡部件必须列入 `Hidden Geometry Register`。眼皮、嘴腔、翼根、腿脚连接默认采用“遮罩优先 + 最小必要补全”，并提交“可见轮廓 / 隐藏补全 / 最终遮罩结果”三态验收图。
 - 100% / 50% / 25% 显示尺寸检查五官可读性；不为小尺寸私自加粗或移位，若需小尺寸专版必须作为独立获批 skin。

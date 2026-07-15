@@ -1,7 +1,7 @@
 # 锻炼YA Decision Log
 
 Status: Active
-Last updated: 2026-07-15
+Last updated: 2026-07-16
 
 ## 记录规则
 
@@ -112,3 +112,32 @@ Duck Front v005 确认为当前唯一官方 Front Production Artwork，并进入
 - 所有 v003 之后的 Front Production 流程作废。
 - Character System、Motion Guide、Expression Guide、命名、Layer Blueprint、Pivot 与目录规范仅作为规范保留，不代表任何 Artwork 已获批准。
 - QA 日志与 Rig 异常截图仅作为审计证据保留，不得用作视觉或生产依据。
+
+---
+
+## DL-004: Duck Turnaround Reference Set Approval
+
+- Date: 2026-07-16
+- Status: Accepted
+- Owners: Character Design / Production
+
+### 背景
+
+Front 是唯一原始 Master Reference。为了在 Front Artwork Reconstruction 前建立可用于跨视角校验的角色体系，SideL 与 Back 先以 Turnaround Reference Candidate 身份提交人工视觉审批。
+
+### 决策
+
+1. Duck Character 正式建立 Front / SideL / Back 三视图 Reference Set。
+2. `Front_MasterCrop.png` 是 Front Master Reference，也是唯一原始视觉基准。
+3. `Duck_SideL_Candidate_v001.png` 提升为 Approved Turnaround Reference，但不提升为 Master Reference。
+4. `Duck_Back_Candidate_v001.png` 提升为 Approved Turnaround Reference，但不提升为 Master Reference。
+5. 三张图片从本决策生效起是 Duck Character 的唯一有效视觉依据。Front 对核心身份、比例和设计语言保持最高优先级。
+6. 任何新视觉内容必须记录来源依据、直接参考部分、设计推导部分与待人工审批部分。
+
+### 影响
+
+- 未来 SVG Reconstruction、Illustrator Artwork、Rive Asset、Rig、Animation、Expression Pose 和 New View Angle 必须以该三视图体系为视觉依据。
+- 旧 SVG、v001–v005 旧 Artwork、旧 Preview 和旧 Rive 仍为无效资产，不得因本次 Reference Approval 恢复使用。
+- SideL 和 Back 的参考获批不等于对应 Production Artwork 获批。
+- 当前生产 Gate 仍为 `Step 1 — Head Outline Reconstruction`；必须同时校验 Front Master、SideL Approved Reference 和 Back Approved Reference，并在该模块审批点停止。
+- 本决策不授权生成 SVG、进入 Rive、建立 Rig 或制作 Animation。
