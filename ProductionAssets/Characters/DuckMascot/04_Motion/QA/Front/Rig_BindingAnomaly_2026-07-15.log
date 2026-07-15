@@ -1,0 +1,8 @@
+2026-07-15 Asia/Shanghai
+Working copy: Rive Untitled clean Front import
+Frozen SVG was not modified and was not re-imported.
+Precondition: SKIN_Front contained 60_FACE, 50_CREST, 40_HEAD, 20_BODY, 30_WINGS/GEO_Wing_R/GEO_Wing_L, 10_LEGS, SHD_Ground, 00_REAR.
+Action: attempted hierarchy drag from the visible GEO_Wing_R row toward the intended shoulder Root Bone.
+Observed anomaly: 60_FACE disappeared from its original SKIN_Front position and the head/face group showed an unexpected transformed selection (-150.33, 2.86; scale X 107%; rotation -49.399 deg).
+Decision: stopped immediately. No undo, repair, animation, SVG modification, or re-import performed.
+Status: Rig Approval Gate NOT READY.

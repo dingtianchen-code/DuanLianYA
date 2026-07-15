@@ -1,7 +1,7 @@
 # 锻炼YA Decision Log
 
 Status: Active
-Last updated: 2026-07-14
+Last updated: 2026-07-15
 
 ## 记录规则
 
@@ -64,3 +64,51 @@ Last updated: 2026-07-14
 - `Features/Home/Components/PostureInteractionView.swift`
 - `Features/Home/Components/DuckHomeQuickActions.swift`
 - `锻炼YATests/__YATests.swift`
+
+---
+
+## DL-002: Duck Front Production Artwork Design Lock
+
+- Date: 2026-07-15
+- Status: INVALID — rolled back by DL-003
+- Owners: Character Design / Rigging / Motion
+
+### 决策
+
+Duck Front v005 确认为当前唯一官方 Front Production Artwork，并进入 Design Lock。后续工作重点从 Character Design 转入 Character Rigging 与 Motion Development。
+
+除非发现明确且记录完整的 Production Bug，否则后续 Rive、Rig、State Machine 和动画制作不得修改角色比例、外轮廓、Crest、Body Rim、五官、配色或光影设计。动画实现与 Artwork 冲突时，必须调整 Rig 或 Motion 实现，不得修改已锁定 Artwork。
+
+任何视觉修改必须作为新的设计决策提出，不属于常规动画开发范围。
+
+### 实现证据
+
+- 原实现证据已在 Production Reset 中删除，不得作为生产依据。
+
+---
+
+## DL-003: Duck Front Production Reset
+
+- Date: 2026-07-15
+- Status: Accepted
+- Owners: Character Design / Rigging / Motion
+
+### 背景
+
+事实审计确认 v005 并非依据唯一有效的 Front Master Reference 完整逆向重建，而是主要继承 v003，仅局部修改 Crest 与 Body Rim。此前对 v003、v005、Design Lock、Freeze Manifest、SHA-256、Rive Import 与 Rig 的生产认定均不成立。
+
+### 决策
+
+1. v003 Production、v005 Production、Design Lock、Freeze Manifest、相关 SHA-256、当前 Rive Working File 与当前 Rive Asset 全部标记为 INVALID。
+2. 删除全部错误 Front SVG、Preview、Overlay、Difference、导出 PNG 与可重新生成错误 Artwork 的 QA 渲染脚本。
+3. 停止 Rive、Rig、State Machine、Animation、Production Freeze 与 Design Lock。
+4. 当前唯一有效的 Front 视觉依据为：
+   - `ProductionAssets/Characters/DuckMascot/00_Reference/MasterReference/Duck_MasterReference_V3.png`
+   - `ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png`
+5. 当前不存在 Front Production SVG。未经新的静态视觉验收，不得开始 SVG 重建、Rive 导入或动画开发。
+
+### 影响
+
+- 所有 v003 之后的 Front Production 流程作废。
+- Character System、Motion Guide、Expression Guide、命名、Layer Blueprint、Pivot 与目录规范仅作为规范保留，不代表任何 Artwork 已获批准。
+- QA 日志与 Rig 异常截图仅作为审计证据保留，不得用作视觉或生产依据。
