@@ -1,0 +1,79 @@
+{
+  "schema": "duck.front.appearance-ownership.body-wings-human-review.v001",
+  "status": "HUMAN_APPROVAL_REQUIRED",
+  "assignments_modified": false,
+  "source": {
+    "master": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png",
+      "sha256": "89e2498d98a72c147ffcc6f4fcd501fa028f17a83820c7165a5e43049510e3fd",
+      "dimensions": [
+        360,
+        450
+      ]
+    },
+    "body": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/OwnershipMaps_v005/Body_OwnershipMap_v005.png",
+      "sha256": "c4d82ea703aebb3a35fa85d3feab902752351095336691d4e73d8f635ac40f24",
+      "dimensions": [
+        360,
+        450
+      ]
+    },
+    "wing_l": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/OwnershipMaps_v005/Wing_L_OwnershipMap_v005.png",
+      "sha256": "c552da3a21736cf28bb196c1087386a8b8d4879af6febf53b23a66e903fd5d06",
+      "dimensions": [
+        360,
+        450
+      ]
+    },
+    "wing_r": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/OwnershipMaps_v005/Wing_R_OwnershipMap_v005.png",
+      "sha256": "37145f531ecc75dc8ca3d3f2c52dc455a695d2e3db5ea1d320b9d70dcbc6fc37",
+      "dimensions": [
+        360,
+        450
+      ]
+    }
+  },
+  "interface_crop_xyxy": [
+    25,
+    230,
+    350,
+    385
+  ],
+  "full_map_counts": {
+    "Body": {
+      "owned": 25384,
+      "neighbor": 3248,
+      "unknown": 7566,
+      "restore": 769,
+      "transparent": 125033
+    },
+    "Wing_L": {
+      "owned": 3652,
+      "neighbor": 377,
+      "unknown": 1183,
+      "restore": 328,
+      "transparent": 156460
+    },
+    "Wing_R": {
+      "owned": 3650,
+      "neighbor": 385,
+      "unknown": 1275,
+      "restore": 336,
+      "transparent": 156354
+    }
+  },
+  "cross_module_owned_overlap_pixels": {
+    "Body_Wing_L": 0,
+    "Body_Wing_R": 0,
+    "Wing_L_Wing_R": 0
+  },
+  "reconstruction": {
+    "review_only": true,
+    "concealed_pixels_filled": false,
+    "restoration_performed": false,
+    "production_artwork": false
+  }
+}

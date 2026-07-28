@@ -1,0 +1,19 @@
+{
+  "schema": "duck.front.head-face-cross-document-hash-consistency.v002.1",
+  "verification_basis": "direct file bytes",
+  "documents_checked": [
+    "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/HeadFaceSubmoduleOwnershipRevision_v002.md",
+    "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/HeadFaceSubmoduleOwnershipRevisionAudit_v002.json",
+    "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002.1/HeadFaceSubmoduleOwnershipRevision_v002_1.md",
+    "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002.1/HeadFaceSubmoduleOwnershipRevisionAudit_v002_1.json"
+  ],
+  "map_pairs_checked": 16,
+  "number_byte_identical": 16,
+  "number_mismatched": 0,
+  "v002_markdown_json_hash_disagreement_count": 0,
+  "v002_1_markdown_json_hash_disagreement_count": 0,
+  "markdown_json_hash_disagreement_count_after_correction": 0,
+  "expected_final_disagreement_count": 0,
+  "disagreements": [],
+  "assertion_passed": true
+}

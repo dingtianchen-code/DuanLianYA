@@ -1,0 +1,200 @@
+Head / Face Submodule Ownership Revision v002.1 — Hash Reconciliation
+Calculation source: actual file bytes read directly from disk
+
+[EyeWhite_L -> EyeWhite_L]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/EyeWhite_L_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeWhite_L_ProposedOwnershipMap_v002.png
+v001 size: 1166
+v002 size: 1166
+v001 SHA-256: 489a0edbced9382ffe71716be51cfb30799979660524bf8b779d45bbb6883c1a
+v002 SHA-256: 489a0edbced9382ffe71716be51cfb30799979660524bf8b779d45bbb6883c1a
+byte-for-byte identity: true
+pixel count: 1675
+pixel deviation: 0
+alpha deviation: 0
+
+[EyeWhite_R -> EyeWhite_R]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/EyeWhite_R_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeWhite_R_ProposedOwnershipMap_v002.png
+v001 size: 1131
+v002 size: 1131
+v001 SHA-256: 89e1bda9805fca02817ec34cb633afb76ca2ae5f413a16c71892a893c800cb94
+v002 SHA-256: 89e1bda9805fca02817ec34cb633afb76ca2ae5f413a16c71892a893c800cb94
+byte-for-byte identity: true
+pixel count: 1525
+pixel deviation: 0
+alpha deviation: 0
+
+[Iris_L -> EyeDark_L]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Iris_L_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeDark_L_ProposedOwnershipMap_v002.png
+v001 size: 956
+v002 size: 956
+v001 SHA-256: d98694ac0fe4a48f3695ca545bd7b32e6575a4d64f05f88d65bfc9734099b6d2
+v002 SHA-256: d98694ac0fe4a48f3695ca545bd7b32e6575a4d64f05f88d65bfc9734099b6d2
+byte-for-byte identity: true
+pixel count: 900
+pixel deviation: 0
+alpha deviation: 0
+
+[Iris_R -> EyeDark_R]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Iris_R_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeDark_R_ProposedOwnershipMap_v002.png
+v001 size: 966
+v002 size: 966
+v001 SHA-256: e8b1c62fb0f2e6c7dd5ad2a950c8b4e60c27223f5339c48ec6e018b3631e4db8
+v002 SHA-256: e8b1c62fb0f2e6c7dd5ad2a950c8b4e60c27223f5339c48ec6e018b3631e4db8
+byte-for-byte identity: true
+pixel count: 881
+pixel deviation: 0
+alpha deviation: 0
+
+[Pupil_L -> Pupil_L]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Pupil_L_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Pupil_L_ProposedOwnershipMap_v002.png
+v001 size: 708
+v002 size: 708
+v001 SHA-256: f25df9ca0419721197c978e6137cdc311ebed27f7cbdf710fb52cf98580119ce
+v002 SHA-256: f25df9ca0419721197c978e6137cdc311ebed27f7cbdf710fb52cf98580119ce
+byte-for-byte identity: true
+pixel count: 0
+pixel deviation: 0
+alpha deviation: 0
+
+[Pupil_R -> Pupil_R]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Pupil_R_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Pupil_R_ProposedOwnershipMap_v002.png
+v001 size: 708
+v002 size: 708
+v001 SHA-256: f25df9ca0419721197c978e6137cdc311ebed27f7cbdf710fb52cf98580119ce
+v002 SHA-256: f25df9ca0419721197c978e6137cdc311ebed27f7cbdf710fb52cf98580119ce
+byte-for-byte identity: true
+pixel count: 0
+pixel deviation: 0
+alpha deviation: 0
+
+[Glint_L -> Glint_L]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Glint_L_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Glint_L_ProposedOwnershipMap_v002.png
+v001 size: 708
+v002 size: 708
+v001 SHA-256: f25df9ca0419721197c978e6137cdc311ebed27f7cbdf710fb52cf98580119ce
+v002 SHA-256: f25df9ca0419721197c978e6137cdc311ebed27f7cbdf710fb52cf98580119ce
+byte-for-byte identity: true
+pixel count: 0
+pixel deviation: 0
+alpha deviation: 0
+
+[Glint_R -> Glint_R]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Glint_R_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Glint_R_ProposedOwnershipMap_v002.png
+v001 size: 708
+v002 size: 708
+v001 SHA-256: f25df9ca0419721197c978e6137cdc311ebed27f7cbdf710fb52cf98580119ce
+v002 SHA-256: f25df9ca0419721197c978e6137cdc311ebed27f7cbdf710fb52cf98580119ce
+byte-for-byte identity: true
+pixel count: 0
+pixel deviation: 0
+alpha deviation: 0
+
+[Brow_L -> Brow_L]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Brow_L_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Brow_L_ProposedOwnershipMap_v002.png
+v001 size: 860
+v002 size: 860
+v001 SHA-256: 1b818f90d66f5ad8ef5160da6ed2e7b1e47d31cdffc75c8395ac7fc7babc953c
+v002 SHA-256: 1b818f90d66f5ad8ef5160da6ed2e7b1e47d31cdffc75c8395ac7fc7babc953c
+byte-for-byte identity: true
+pixel count: 234
+pixel deviation: 0
+alpha deviation: 0
+
+[Brow_R -> Brow_R]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Brow_R_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Brow_R_ProposedOwnershipMap_v002.png
+v001 size: 853
+v002 size: 853
+v001 SHA-256: 5ccaa38885a0bb720a570cc4fbefd8ea909737bece3fa569f6ff924c04a52682
+v002 SHA-256: 5ccaa38885a0bb720a570cc4fbefd8ea909737bece3fa569f6ff924c04a52682
+byte-for-byte identity: true
+pixel count: 220
+pixel deviation: 0
+alpha deviation: 0
+
+[CheekMark_L -> CheekMark_L]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/CheekMark_L_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/CheekMark_L_ProposedOwnershipMap_v002.png
+v001 size: 764
+v002 size: 764
+v001 SHA-256: 569533706ac1c24c8f41cf6e95f949bf87f9576b20105ca005b838faa920804d
+v002 SHA-256: 569533706ac1c24c8f41cf6e95f949bf87f9576b20105ca005b838faa920804d
+byte-for-byte identity: true
+pixel count: 32
+pixel deviation: 0
+alpha deviation: 0
+
+[CheekMark_R -> CheekMark_R]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/CheekMark_R_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/CheekMark_R_ProposedOwnershipMap_v002.png
+v001 size: 769
+v002 size: 769
+v001 SHA-256: 08a087f081917dcab6f91680dbc92ff1d7f95414818c8232a80638662246950c
+v002 SHA-256: 08a087f081917dcab6f91680dbc92ff1d7f95414818c8232a80638662246950c
+byte-for-byte identity: true
+pixel count: 29
+pixel deviation: 0
+alpha deviation: 0
+
+[Beak -> Beak]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Beak_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Beak_ProposedOwnershipMap_v002.png
+v001 size: 1195
+v002 size: 1195
+v001 SHA-256: 3c2ae7e1ea133d87ba2829ea74b3da6f247b31de2276d198509f8dab03fa84ad
+v002 SHA-256: 3c2ae7e1ea133d87ba2829ea74b3da6f247b31de2276d198509f8dab03fa84ad
+byte-for-byte identity: true
+pixel count: 4334
+pixel deviation: 0
+alpha deviation: 0
+
+[Nostril_L -> Nostril_L]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Nostril_L_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Nostril_L_ProposedOwnershipMap_v002.png
+v001 size: 752
+v002 size: 752
+v001 SHA-256: f5bc1e3b349d64ab33d592ef769a9be2734f22bb290da04857e7c19affd8350a
+v002 SHA-256: f5bc1e3b349d64ab33d592ef769a9be2734f22bb290da04857e7c19affd8350a
+byte-for-byte identity: true
+pixel count: 24
+pixel deviation: 0
+alpha deviation: 0
+
+[Nostril_R -> Nostril_R]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Nostril_R_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Nostril_R_ProposedOwnershipMap_v002.png
+v001 size: 750
+v002 size: 750
+v001 SHA-256: 967c59817f10c9af3b71693abd7e512aa044111790e47fe5a7edbeac13af342e
+v002 SHA-256: 967c59817f10c9af3b71693abd7e512aa044111790e47fe5a7edbeac13af342e
+byte-for-byte identity: true
+pixel count: 22
+pixel deviation: 0
+alpha deviation: 0
+
+[Head_Base -> Head_Base]
+v001 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v001/ProposedOwnershipMaps_v001/Head_Base_ProposedOwnershipMap_v001.png
+v002 path: /Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Head_Base_ProposedOwnershipMap_v002.png
+v001 size: 2864
+v002 size: 2864
+v001 SHA-256: 68c2c889642463beff37e225edfc58c2e3fadfca801b93e17dffbed7c0337266
+v002 SHA-256: 68c2c889642463beff37e225edfc58c2e3fadfca801b93e17dffbed7c0337266
+byte-for-byte identity: true
+pixel count: 34005
+pixel deviation: 0
+alpha deviation: 0
+
+Existing evidence error: Markdown only
+Markdown mismatches before correction: 16
+JSON mismatches before correction: 0
+Markdown mismatches after correction: 0
+JSON mismatches after correction: 0

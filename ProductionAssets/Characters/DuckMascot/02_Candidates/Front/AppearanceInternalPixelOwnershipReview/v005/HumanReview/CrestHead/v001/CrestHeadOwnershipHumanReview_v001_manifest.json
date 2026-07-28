@@ -1,0 +1,73 @@
+{
+  "schema": "duck.front.appearance-ownership.crest-head-human-review.v001",
+  "status": "HUMAN_APPROVAL_REQUIRED",
+  "assignments_modified": false,
+  "source": {
+    "master": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png",
+      "sha256": "89e2498d98a72c147ffcc6f4fcd501fa028f17a83820c7165a5e43049510e3fd",
+      "dimensions": [
+        360,
+        450
+      ]
+    },
+    "crest_map": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/OwnershipMaps_v005/Crest_OwnershipMap_v005.png",
+      "sha256": "f0b32842c12bc1ecec536e4f0a6bf3996dd474ed6ea6903fac33d8dfccb47032",
+      "dimensions": [
+        360,
+        450
+      ]
+    },
+    "head_map": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/OwnershipMaps_v005/Head_OwnershipMap_v005.png",
+      "sha256": "0fbe712c2dddacf0d04ee4111a8c3bff110bd2a9c8e63cbedffcbb78e8038920",
+      "dimensions": [
+        360,
+        450
+      ]
+    }
+  },
+  "interface_crop_xyxy": [
+    120,
+    0,
+    280,
+    130
+  ],
+  "full_map_counts": {
+    "Crest": {
+      "owned": 1521,
+      "neighbor": 0,
+      "unknown": 2136,
+      "restore": 317,
+      "transparent": 158026
+    },
+    "Head": {
+      "owned": 34147,
+      "neighbor": 9891,
+      "unknown": 0,
+      "restore": 2500,
+      "transparent": 115462
+    }
+  },
+  "interface_roi_counts": {
+    "Crest": {
+      "owned": 1521,
+      "neighbor": 0,
+      "unknown": 2136,
+      "restore": 317
+    },
+    "Head": {
+      "owned": 11506,
+      "neighbor": 316,
+      "unknown": 0,
+      "restore": 442
+    }
+  },
+  "reconstruction": {
+    "meaning": "review-only reconstruction using only existing GREEN owned-visible pixels inside the interface ROI",
+    "concealed_pixels_filled": false,
+    "restoration_performed": false,
+    "production_artwork": false
+  }
+}

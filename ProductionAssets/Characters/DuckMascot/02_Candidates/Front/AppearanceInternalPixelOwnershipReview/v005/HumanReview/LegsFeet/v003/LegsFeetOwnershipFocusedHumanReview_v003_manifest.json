@@ -1,0 +1,249 @@
+{
+  "schema": "duck.front.legs-feet-ownership-focused-human-review.v003",
+  "status": "APPROVED_OWNERSHIP_ASSIGNMENT_ONLY__CROSS_GATE_RECONCILED__BOUNDARY_B_APPLIED",
+  "review_only": true,
+  "revision_type": "diagnostic classification assignment only",
+  "source": {
+    "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png",
+    "sha256": "89e2498d98a72c147ffcc6f4fcd501fa028f17a83820c7165a5e43049510e3fd",
+    "modified": false
+  },
+  "green_assignments": {
+    "unchanged": false,
+    "overlap_matrix": {
+      "Leg_L__Foot_L": 0,
+      "Leg_R__Foot_R": 0,
+      "Leg_L__Leg_R": 0,
+      "Foot_L__Foot_R": 0,
+      "Leg_L__Foot_R": 0,
+      "Leg_R__Foot_L": 0
+    },
+    "post_cross_gate_counts": {
+      "Body": 25384,
+      "Leg_L": 230,
+      "Leg_R": 217,
+      "Foot_L": 2004,
+      "Foot_R": 2004
+    },
+    "all_global_pair_overlaps_zero": true
+  },
+  "interface_restore_unassigned": {
+    "L": {
+      "pixel_count": 275,
+      "bbox_xyxy": [
+        108,
+        380,
+        148,
+        413
+      ],
+      "coordinate_sha256": "2e26c0c4ccb569f482920578ccd510cd22865317c47b29b8b221cd465f82e12f",
+      "mask_path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_L_v003.png",
+      "mask_sha256": "ed736168b519cd8d289e3f257e4b0991af64b546b3fd817af915aa2ea6960ce6",
+      "coordinates_csv_path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_L_Coordinates_v003.csv",
+      "coordinates_csv_sha256": "f4b0961f4233299b8e304d750e0cbed87b51251cc90d1c375bab20d3b61502f7",
+      "restoration_owner": null
+    },
+    "R": {
+      "pixel_count": 275,
+      "bbox_xyxy": [
+        227,
+        380,
+        267,
+        413
+      ],
+      "coordinate_sha256": "8083120666fd18b643151fca129cc989c0730f3747ff95bff85382ef49825539",
+      "mask_path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_R_v003.png",
+      "mask_sha256": "1f32d6e4cf406a34accb09ca13c3642cdff19e411de0cd976ec7887cc6e0756f",
+      "coordinates_csv_path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_R_Coordinates_v003.csv",
+      "coordinates_csv_sha256": "6af2e604e6c55c72a684584353352af4b84186af91cb96eb5a94d63f1a7a394f",
+      "restoration_owner": null
+    }
+  },
+  "module_classification_before": {
+    "Leg_L": {
+      "owned_visible": 471,
+      "neighbor": 275,
+      "concealed_unknown": 658,
+      "restoration_required": 0
+    },
+    "Foot_L": {
+      "owned_visible": 1610,
+      "neighbor": 4,
+      "concealed_unknown": 658,
+      "restoration_required": 275
+    },
+    "Leg_R": {
+      "owned_visible": 484,
+      "neighbor": 275,
+      "concealed_unknown": 645,
+      "restoration_required": 0
+    },
+    "Foot_R": {
+      "owned_visible": 1612,
+      "neighbor": 4,
+      "concealed_unknown": 645,
+      "restoration_required": 275
+    }
+  },
+  "module_classification_effective_v003": {
+    "Leg_L": {
+      "owned_visible": 230,
+      "neighbor": 0,
+      "concealed_unknown": 658,
+      "restoration_required": 0
+    },
+    "Foot_L": {
+      "owned_visible": 2004,
+      "neighbor": 4,
+      "concealed_unknown": 658,
+      "restoration_required": 0
+    },
+    "Leg_R": {
+      "owned_visible": 217,
+      "neighbor": 0,
+      "concealed_unknown": 645,
+      "restoration_required": 0
+    },
+    "Foot_R": {
+      "owned_visible": 2004,
+      "neighbor": 4,
+      "concealed_unknown": 645,
+      "restoration_required": 0
+    }
+  },
+  "ground_shadow_overlap": {
+    "Foot_L": 0,
+    "Foot_R": 0
+  },
+  "constraints": {
+    "master_rgb_modified": false,
+    "structural_geometry_modified": false,
+    "visible_appearance_modified": false,
+    "svg_created": false,
+    "rive_created": false
+  },
+  "files": {
+    "DiagnosticClassifications_v003/Foot_L_EffectiveOwnershipMap_v003.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/Foot_L_EffectiveOwnershipMap_v003.png",
+      "sha256": "2a169ad8c594337d3bb58fb2e21a6e807d5e5e6b0ac3b429c64933e98269fa4d",
+      "size": [
+        360,
+        450
+      ]
+    },
+    "DiagnosticClassifications_v003/Foot_R_EffectiveOwnershipMap_v003.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/Foot_R_EffectiveOwnershipMap_v003.png",
+      "sha256": "747e06c4dd37752fe9d6f897228207ff2164d3422c01345bbbc5e5d2207770a5",
+      "size": [
+        360,
+        450
+      ]
+    },
+    "DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_L_Coordinates_v003.csv": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_L_Coordinates_v003.csv",
+      "sha256": "f4b0961f4233299b8e304d750e0cbed87b51251cc90d1c375bab20d3b61502f7"
+    },
+    "DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_L_v003.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_L_v003.png",
+      "sha256": "ed736168b519cd8d289e3f257e4b0991af64b546b3fd817af915aa2ea6960ce6",
+      "size": [
+        360,
+        450
+      ]
+    },
+    "DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_R_Coordinates_v003.csv": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_R_Coordinates_v003.csv",
+      "sha256": "6af2e604e6c55c72a684584353352af4b84186af91cb96eb5a94d63f1a7a394f"
+    },
+    "DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_R_v003.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/LegFoot_Interface_Unresolved_R_v003.png",
+      "sha256": "1f32d6e4cf406a34accb09ca13c3642cdff19e411de0cd976ec7887cc6e0756f",
+      "size": [
+        360,
+        450
+      ]
+    },
+    "DiagnosticClassifications_v003/Leg_L_EffectiveOwnershipMap_v003.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/Leg_L_EffectiveOwnershipMap_v003.png",
+      "sha256": "cfed7ead5fe08b2e9dc5629d88bd366b6cf2cb77cbe202368417e1f75ed512cc",
+      "size": [
+        360,
+        450
+      ]
+    },
+    "DiagnosticClassifications_v003/Leg_R_EffectiveOwnershipMap_v003.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/DiagnosticClassifications_v003/Leg_R_EffectiveOwnershipMap_v003.png",
+      "sha256": "e20e820d3bf67ea81380a34520b234673f37d85b43eacb00188a0a6eb32210a2",
+      "size": [
+        360,
+        450
+      ]
+    },
+    "LegsFeetOwnershipFocusedHumanReview_v003.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/AppearanceInternalPixelOwnershipReview/v005/HumanReview/LegsFeet/v003/LegsFeetOwnershipFocusedHumanReview_v003.png",
+      "sha256": "7fa492457490aef67d4975529652e8a870bbd779731a660a23314437148b9826",
+      "size": [
+        3600,
+        4300
+      ]
+    }
+  },
+  "cross_gate_reconciliation": {
+    "source": "BodyLegFootCrossGateReconciliation/v001",
+    "human_decision": {
+      "L": "ASSIGN_TO_BODY",
+      "R": "ASSIGN_TO_BODY"
+    },
+    "removed_from_leg_green": {
+      "L": 463,
+      "R": 477
+    },
+    "body_green_changed": false,
+    "unrelated_ownership_changed": false
+  },
+  "visible_semantic_boundary_revision": {
+    "source": "LegFootVisibleSemanticBoundaryReview/v001",
+    "human_decision": {
+      "L": "APPROVE_BOUNDARY_B",
+      "R": "APPROVE_BOUNDARY_B"
+    },
+    "assigned_from_previously_unassigned": {
+      "Leg_L": 222,
+      "Foot_L": 394,
+      "Leg_R": 210,
+      "Foot_R": 392
+    },
+    "existing_foot_green_removed": 0,
+    "interface_unresolved_changed": false,
+    "restoration_owner": null
+  },
+  "authority_reconciliation": {
+    "original_v005_source_maps": {
+      "status": "UNCHANGED_HISTORICAL_EVIDENCE",
+      "Leg_L_sha256": "40e1a6e7819040fcc54978df28100945a76065118676daf4611a9547a9662f1a",
+      "Foot_L_sha256": "8378bd0561a46d57f9531b4728c0d08c96c68f1ef8b98e90203c3ca99fc59b84",
+      "Leg_R_sha256": "a205b1356fcb1e2fca80c6328270db1b6a38572caf3f86f2dab18da24a4e3dcb",
+      "Foot_R_sha256": "45377bede148ce32a5032e9bd183997d258750782ea2e312068b15c249aab811"
+    },
+    "current_effective_diagnostic_maps": {
+      "status": "APPROVED_OWNERSHIP_ASSIGNMENT_ONLY",
+      "final_appearance_authorized": false,
+      "Leg_L": {
+        "pixels": 230,
+        "sha256": "cfed7ead5fe08b2e9dc5629d88bd366b6cf2cb77cbe202368417e1f75ed512cc"
+      },
+      "Foot_L": {
+        "pixels": 2004,
+        "sha256": "2a169ad8c594337d3bb58fb2e21a6e807d5e5e6b0ac3b429c64933e98269fa4d"
+      },
+      "Leg_R": {
+        "pixels": 217,
+        "sha256": "e20e820d3bf67ea81380a34520b234673f37d85b43eacb00188a0a6eb32210a2"
+      },
+      "Foot_R": {
+        "pixels": 2004,
+        "sha256": "747e06c4dd37752fe9d6f897228207ff2164d3422c01345bbbc5e5d2207770a5"
+      }
+    }
+  }
+}

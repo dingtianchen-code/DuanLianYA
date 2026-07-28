@@ -1,0 +1,216 @@
+{
+  "schema": "duck.front.leg-foot-visible-semantic-boundary-review.v001",
+  "status": "APPROVED_BOUNDARY_B_LEFT_AND_RIGHT__OWNERSHIP_REVISION_APPLIED",
+  "read_only": false,
+  "maps_modified": true,
+  "source": {
+    "master": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png",
+    "master_sha256": "89e2498d98a72c147ffcc6f4fcd501fa028f17a83820c7165a5e43049510e3fd",
+    "structural_baseline": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/01_Source/Artwork/LegFoot/Baseline/v001/Duck_FrontLegFoot_GeometryBaseline_v001.svg",
+    "structural_sha256": "9311e225ff9c20b94634406000d38755e8b859e890b64fbf7493600e69590251",
+    "complete_form_interpretation": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/04_Motion/QA/Front/LegFootCompleteFormHumanShapeInterpretation_v002/FrontLegFootCompleteFormHumanShapeInterpretation_v002.png",
+    "interpretation_sha256": "cdceb38d6f4e5f8684678f1b02e67158995ebe6ccad8d05bf44da8d389d1cffc"
+  },
+  "candidate_definition": {
+    "A": "high Leg share",
+    "B": "middle",
+    "C": "low Leg share / more Foot",
+    "note": "screen y grows downward; boundary crown y values are review coordinates only"
+  },
+  "sides": {
+    "L": {
+      "current": {
+        "Leg": 8,
+        "Foot": 1610,
+        "Interface_Unresolved": 275
+      },
+      "candidates": {
+        "A": {
+          "boundary_crown_y": 399,
+          "candidate_leg_visible": 314,
+          "candidate_foot_visible": 1902,
+          "foot_to_leg": 0,
+          "unassigned_to_leg": 306,
+          "unassigned_to_foot": 292,
+          "interface_unresolved_preserved": 275
+        },
+        "B": {
+          "boundary_crown_y": 396,
+          "candidate_leg_visible": 230,
+          "candidate_foot_visible": 2004,
+          "foot_to_leg": 0,
+          "unassigned_to_leg": 222,
+          "unassigned_to_foot": 394,
+          "interface_unresolved_preserved": 275
+        },
+        "C": {
+          "boundary_crown_y": 393,
+          "candidate_leg_visible": 146,
+          "candidate_foot_visible": 2085,
+          "foot_to_leg": 0,
+          "unassigned_to_leg": 138,
+          "unassigned_to_foot": 475,
+          "interface_unresolved_preserved": 275
+        }
+      }
+    },
+    "R": {
+      "current": {
+        "Leg": 7,
+        "Foot": 1612,
+        "Interface_Unresolved": 275
+      },
+      "candidates": {
+        "A": {
+          "boundary_crown_y": 399,
+          "candidate_leg_visible": 301,
+          "candidate_foot_visible": 1903,
+          "foot_to_leg": 0,
+          "unassigned_to_leg": 294,
+          "unassigned_to_foot": 291,
+          "interface_unresolved_preserved": 275
+        },
+        "B": {
+          "boundary_crown_y": 396,
+          "candidate_leg_visible": 217,
+          "candidate_foot_visible": 2004,
+          "foot_to_leg": 0,
+          "unassigned_to_leg": 210,
+          "unassigned_to_foot": 392,
+          "interface_unresolved_preserved": 275
+        },
+        "C": {
+          "boundary_crown_y": 393,
+          "candidate_leg_visible": 134,
+          "candidate_foot_visible": 2085,
+          "foot_to_leg": 0,
+          "unassigned_to_leg": 127,
+          "unassigned_to_foot": 473,
+          "interface_unresolved_preserved": 275
+        }
+      }
+    }
+  },
+  "decision_options": [
+    "APPROVE BOUNDARY A",
+    "APPROVE BOUNDARY B",
+    "APPROVE BOUNDARY C",
+    "REQUEST NEW BOUNDARY",
+    "EVIDENCE INSUFFICIENT"
+  ],
+  "human_decision": {
+    "L": "APPROVE BOUNDARY B",
+    "R": "APPROVE BOUNDARY B",
+    "scope": "visible-pixel semantic ownership only",
+    "effective_counts": {
+      "Leg_L": 230,
+      "Foot_L": 2004,
+      "Leg_R": 217,
+      "Foot_R": 2004
+    },
+    "assigned_from_previously_unassigned": {
+      "Leg_L": 222,
+      "Foot_L": 394,
+      "Leg_R": 210,
+      "Foot_R": 392
+    },
+    "interface_unresolved_preserved": {
+      "L": 275,
+      "R": 275,
+      "restoration_owner": null
+    }
+  },
+  "authority_reconciliation": {
+    "historical_review_preparation": {
+      "read_only": true,
+      "boundary_selected": false,
+      "maps_modified": false
+    },
+    "approved_application": {
+      "boundary": {
+        "L": "B",
+        "R": "B"
+      },
+      "modified_scope": "four effective diagnostic Leg/Foot ownership maps only",
+      "final_appearance_authorized": false
+    },
+    "current_effective_maps": {
+      "Leg_L": {
+        "pixels": 230,
+        "sha256": "cfed7ead5fe08b2e9dc5629d88bd366b6cf2cb77cbe202368417e1f75ed512cc"
+      },
+      "Foot_L": {
+        "pixels": 2004,
+        "sha256": "2a169ad8c594337d3bb58fb2e21a6e807d5e5e6b0ac3b429c64933e98269fa4d"
+      },
+      "Leg_R": {
+        "pixels": 217,
+        "sha256": "e20e820d3bf67ea81380a34520b234673f37d85b43eacb00188a0a6eb32210a2"
+      },
+      "Foot_R": {
+        "pixels": 2004,
+        "sha256": "747e06c4dd37752fe9d6f897228207ff2164d3422c01345bbbc5e5d2207770a5"
+      }
+    },
+    "original_v005_source_maps_unchanged": {
+      "Leg_L": "40e1a6e7819040fcc54978df28100945a76065118676daf4611a9547a9662f1a",
+      "Foot_L": "8378bd0561a46d57f9531b4728c0d08c96c68f1ef8b98e90203c3ca99fc59b84",
+      "Leg_R": "a205b1356fcb1e2fca80c6328270db1b6a38572caf3f86f2dab18da24a4e3dcb",
+      "Foot_R": "45377bede148ce32a5032e9bd183997d258750782ea2e312068b15c249aab811"
+    },
+    "unresolved_interface_maps_unchanged": {
+      "L": {
+        "pixels": 275,
+        "sha256": "ed736168b519cd8d289e3f257e4b0991af64b546b3fd817af915aa2ea6960ce6",
+        "restoration_owner": null
+      },
+      "R": {
+        "pixels": 275,
+        "sha256": "1f32d6e4cf406a34accb09ca13c3642cdff19e411de0cd976ec7887cc6e0756f",
+        "restoration_owner": null
+      }
+    }
+  },
+  "files": {
+    "LegFootBoundary_L_Candidates_ABC_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/LegFootVisibleSemanticBoundaryReview/v001/LegFootBoundary_L_Candidates_ABC_v001.png",
+      "sha256": "f30cb411247b19ddb038bcb69ff06190ce35864200e8907eee43aa5641cddc6e",
+      "size": [
+        4160,
+        1980
+      ]
+    },
+    "LegFootBoundary_L_Evidence_1600pct_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/LegFootVisibleSemanticBoundaryReview/v001/LegFootBoundary_L_Evidence_1600pct_v001.png",
+      "sha256": "643a0f22b2f0faecd43166552c27fdf89e927e79d989e2b641616b05741e4338",
+      "size": [
+        4940,
+        1510
+      ]
+    },
+    "LegFootBoundary_R_Candidates_ABC_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/LegFootVisibleSemanticBoundaryReview/v001/LegFootBoundary_R_Candidates_ABC_v001.png",
+      "sha256": "7a2a68a4534454b603b285758e787723e68b010d11a261aa78af26aabf85fa9c",
+      "size": [
+        4160,
+        1980
+      ]
+    },
+    "LegFootBoundary_R_Evidence_1600pct_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/LegFootVisibleSemanticBoundaryReview/v001/LegFootBoundary_R_Evidence_1600pct_v001.png",
+      "sha256": "1d2c53b2e8593d8b90f9564a1e7b748e7bbf4af630209579c34d52dfc6886660",
+      "size": [
+        4940,
+        1510
+      ]
+    },
+    "LegFootVisibleSemanticBoundaryReview_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/LegFootVisibleSemanticBoundaryReview/v001/LegFootVisibleSemanticBoundaryReview_v001.png",
+      "sha256": "027c9201dfa92ff00bb2659bbea16b2c4faed8d028c49f4905d49acb4a00a93e",
+      "size": [
+        3600,
+        4400
+      ]
+    }
+  }
+}

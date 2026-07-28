@@ -1,0 +1,231 @@
+{
+  "schema": "duck.front.body-leg-foot-cross-gate-reconciliation.v001",
+  "status": "APPROVED__ASSIGN_TO_BODY_BOTH_SIDES",
+  "read_only": true,
+  "source": {
+    "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png",
+    "sha256": "89e2498d98a72c147ffcc6f4fcd501fa028f17a83820c7165a5e43049510e3fd",
+    "size": [
+      360,
+      450
+    ],
+    "modified": false
+  },
+  "duplicate_regions": {
+    "L": {
+      "pixel_count": 463,
+      "bbox_xyxy": [
+        111,
+        369,
+        148,
+        390
+      ],
+      "coordinate_sha256": "f65994e622f34ed5204a162890af5719d667bf9be19b6404e95f64c89f6668c6",
+      "rgb": {
+        "min": [
+          246,
+          190,
+          0
+        ],
+        "max": [
+          255,
+          221,
+          134
+        ],
+        "mean": [
+          253.537797,
+          206.473002,
+          18.889849
+        ],
+        "median": [
+          254.0,
+          203.0,
+          4.0
+        ],
+        "stddev": [
+          1.235795,
+          7.566182,
+          26.112209
+        ]
+      },
+      "source_alpha": {
+        "note": "Front_MasterCrop is RGB; review load alpha is uniformly 255",
+        "min": 255,
+        "max": 255,
+        "mean": 255
+      },
+      "diagnostic_map_alpha": {
+        "Body_GREEN": 175,
+        "Leg_GREEN": 175
+      },
+      "visual_color_evidence": {
+        "body_like_yellow_proxy_pixels": 462,
+        "leg_like_orange_proxy_pixels": 0,
+        "near_neutral_or_gray_pixels": 0,
+        "light_or_antialiased_exception_pixels": 1
+      },
+      "overlap_with_legfoot_interface_unresolved": 0,
+      "overlap_with_confirmed_gray_ground_shadow": 0
+    },
+    "R": {
+      "pixel_count": 477,
+      "bbox_xyxy": [
+        227,
+        369,
+        265,
+        390
+      ],
+      "coordinate_sha256": "692c7341c38cacad3ae025e2ecefae6399ff25e3d25da8541cebe5825aba6ecc",
+      "rgb": {
+        "min": [
+          246,
+          191,
+          0
+        ],
+        "max": [
+          255,
+          221,
+          154
+        ],
+        "mean": [
+          253.637317,
+          206.060797,
+          16.566038
+        ],
+        "median": [
+          254.0,
+          203.0,
+          4.0
+        ],
+        "stddev": [
+          1.192443,
+          7.517866,
+          24.320242
+        ]
+      },
+      "source_alpha": {
+        "note": "Front_MasterCrop is RGB; review load alpha is uniformly 255",
+        "min": 255,
+        "max": 255,
+        "mean": 255
+      },
+      "diagnostic_map_alpha": {
+        "Body_GREEN": 175,
+        "Leg_GREEN": 175
+      },
+      "visual_color_evidence": {
+        "body_like_yellow_proxy_pixels": 476,
+        "leg_like_orange_proxy_pixels": 0,
+        "near_neutral_or_gray_pixels": 0,
+        "light_or_antialiased_exception_pixels": 1
+      },
+      "overlap_with_legfoot_interface_unresolved": 0,
+      "overlap_with_confirmed_gray_ground_shadow": 0
+    }
+  },
+  "body_foot_green_overlap": {
+    "Body__Foot_L": 0,
+    "Body__Foot_R": 0
+  },
+  "options": [
+    "ASSIGN TO BODY",
+    "ASSIGN TO LEG",
+    "MOVE TO INTERFACE_UNRESOLVED",
+    "REVISE EVIDENCE",
+    "REJECT INTERPRETATION"
+  ],
+  "left_right_independent_decisions_required": true,
+  "automatic_owner_selected": false,
+  "assignments_modified": true,
+  "assignment_change_authority": "explicit Human decision — ASSIGN TO BODY on both sides",
+  "historical_review_state": "No option was selected when the review evidence was generated.",
+  "files": {
+    "BodyLegFootCrossGateReconciliation_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/BodyLegFootCrossGateReconciliation/v001/BodyLegFootCrossGateReconciliation_v001.png",
+      "sha256": "b403e9e0cf80dd02e275b68510874b78a7787b3a873491bded08846e0bb65f10",
+      "size": [
+        3600,
+        4200
+      ]
+    },
+    "BodyLeg_L_DuplicateCoordinates_v001.csv": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/BodyLegFootCrossGateReconciliation/v001/BodyLeg_L_DuplicateCoordinates_v001.csv",
+      "sha256": "f1b96d0380002ddbf321c42592d77f9b1d48234dd8ae627107a2a872aac987c7"
+    },
+    "BodyLeg_L_EvidenceReview_1200pct_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/BodyLegFootCrossGateReconciliation/v001/BodyLeg_L_EvidenceReview_1200pct_v001.png",
+      "sha256": "54da8db0a083b0f42b054b058b5397d6819e7a36fd01cb406e2b6e669bd1d45d",
+      "size": [
+        2176,
+        1122
+      ]
+    },
+    "BodyLeg_L_InterpretationOptions_1200pct_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/BodyLegFootCrossGateReconciliation/v001/BodyLeg_L_InterpretationOptions_1200pct_v001.png",
+      "sha256": "cca50f14a4d376d3c7a795e409f27329df38641170c90a5c81a47afe21595ef6",
+      "size": [
+        2176,
+        1658
+      ]
+    },
+    "BodyLeg_R_DuplicateCoordinates_v001.csv": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/BodyLegFootCrossGateReconciliation/v001/BodyLeg_R_DuplicateCoordinates_v001.csv",
+      "sha256": "62b5530338d39c0652f21a55dd63d945a19956885b2c3394fc29a368bb1d48a3"
+    },
+    "BodyLeg_R_EvidenceReview_1200pct_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/BodyLegFootCrossGateReconciliation/v001/BodyLeg_R_EvidenceReview_1200pct_v001.png",
+      "sha256": "711c8c88a7178d87783e68be8ffd88c9e9d5c52b58e860465a8897c26a7239a1",
+      "size": [
+        2248,
+        1122
+      ]
+    },
+    "BodyLeg_R_InterpretationOptions_1200pct_v001.png": {
+      "path": "/Users/dave/Projects/锻炼YA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/BodyLegFootCrossGateReconciliation/v001/BodyLeg_R_InterpretationOptions_1200pct_v001.png",
+      "sha256": "0f5db5755ff3c29335bed8c31ee745c7c995aee58a678a5b444ed82aac224dd1",
+      "size": [
+        2248,
+        1658
+      ]
+    }
+  },
+  "human_decision": {
+    "L": "ASSIGN_TO_BODY",
+    "R": "ASSIGN_TO_BODY"
+  },
+  "authorized_revision_applied": true,
+  "post_revision_green_counts": {
+    "Body": 25384,
+    "Leg_L": 8,
+    "Leg_R": 7,
+    "Foot_L": 1610,
+    "Foot_R": 1612
+  },
+  "post_revision_global_green": {
+    "sum": 71591,
+    "unique_union": 71591,
+    "pixels_assigned_to_multiple_modules": 0
+  },
+  "post_revision_overlap": {
+    "Body__Leg_L": 0,
+    "Body__Leg_R": 0
+  },
+  "effective_leg_map_hashes": {
+    "Leg_L": {
+      "before": "0589ff51346ffa9ec223f8055afbd037f563b46629749470717eac38fc8a921e",
+      "after": "57383124b0132147b029ea6fc0a3fa4bd364272b263c3bd8a0db2ff961acf2b0"
+    },
+    "Leg_R": {
+      "before": "45f381d3441a40e7dcc233c6d9950da9ad54279eae599f1526300241766e5e33",
+      "after": "a62dc3a6607555ac9d4c4767072d419b0dafb6f62a53ad7ed1e32968634eccdd"
+    }
+  },
+  "preservation": {
+    "body_map_sha256": "c4d82ea703aebb3a35fa85d3feab902752351095336691d4e73d8f635ac40f24",
+    "foot_maps_unchanged": true,
+    "legfoot_275_registers_unchanged": true,
+    "ground_shadow_classification_unchanged": true,
+    "master_rgb_unchanged": true,
+    "structural_geometry_unchanged": true
+  }
+}
