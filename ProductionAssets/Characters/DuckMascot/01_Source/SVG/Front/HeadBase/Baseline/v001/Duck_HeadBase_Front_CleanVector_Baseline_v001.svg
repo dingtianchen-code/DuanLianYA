@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="450" viewBox="0 0 360 450">
+  <title>Duck Head Base Front Clean Vector Baseline v001</title>
+  <desc>Approved and frozen Head Base Clean Vector Baseline. No embedded image, clipping path, scanline geometry, Crest, Face, Body, Wings, Legs, Rig, or animation.</desc>
+  <defs>
+    <radialGradient id="GRD_HeadBase_Volume" cx="46%" cy="34%" r="66%" fx="43%" fy="28%">
+      <stop offset="0%" stop-color="#FFE45A"/>
+      <stop offset="53%" stop-color="#FFD83E"/>
+      <stop offset="82%" stop-color="#FFD12B"/>
+      <stop offset="100%" stop-color="#F5C414"/>
+    </radialGradient>
+  </defs>
+  <g id="MODULE_HeadBase_Front" data-status="Approved — Baseline Freeze">
+    <path id="GEO_HeadBase_Front"
+          fill="url(#GRD_HeadBase_Volume)"
+          d="M 180 45
+             C 114 45 61 98 61 169
+             C 61 197 70 221 88 239
+             C 110 259 145 269 180 269
+             C 216 269 251 259 292 239
+             C 310 221 319 197 319 169
+             C 319 98 266 45 180 45
+             Z"/>
+  </g>
+</svg>

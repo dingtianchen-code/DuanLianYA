@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="450" viewBox="0 0 360 450">
+  <title>Duck Front Leg + Foot Geometry Baseline v001</title>
+  <desc>Geometry verification package. Four independent closed Shapes. No Draw Order freeze, Pivot, Rig or animation metadata.</desc>
+  <path id="Leg_L" d="M 128 375 C 137 375 142 381 142 391 C 142 401 137 407 128 407 C 119 407 114 401 114 391 C 114 381 119 375 128 375 Z" fill="#8B5FDC"/>
+  <path id="Foot_L" d="M 128 392 C 143 392 154 397 158 404 C 161 409 158 414 151 416 C 144 417 139 419 134 423 C 128 428 120 427 113 422 C 106 423 99 421 95 417 C 87 418 78 414 74 409 C 70 404 76 399 84 397 C 97 393 111 391 128 392 Z" fill="#FF8A00"/>
+  <path id="Leg_R" d="M 247 375 C 256 375 261 381 261 391 C 261 401 256 407 247 407 C 238 407 233 401 233 391 C 233 381 238 375 247 375 Z" fill="#8B5FDC"/>
+  <path id="Foot_R" d="M 247 392 C 264 391 278 393 291 397 C 299 399 305 404 301 409 C 297 414 288 418 280 417 C 276 421 269 423 262 422 C 255 427 247 428 241 423 C 236 419 231 417 224 416 C 217 414 214 409 217 404 C 221 397 232 392 247 392 Z" fill="#FF8A00"/>
+</svg>

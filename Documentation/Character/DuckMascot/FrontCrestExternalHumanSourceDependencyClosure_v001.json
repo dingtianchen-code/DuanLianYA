@@ -1,0 +1,69 @@
+{
+  "schema": "duck.front-crest-external-human-source-dependency-closure.v1",
+  "status": "DEPENDENCY CLOSED — BYTE-IDENTICAL SOURCE COPY PREPARED — HUMAN VERIFICATION REQUIRED",
+  "gate": "Front Crest External Human Source Dependency Closure v001 — Human Verification Gate",
+  "verification_date": "2026-07-28",
+  "external_source": {
+    "absolute_path": "/Users/dave/Desktop/fd081055-ae0d-4e5e-97f8-aa3572e20195.png",
+    "original_filename": "fd081055-ae0d-4e5e-97f8-aa3572e20195.png",
+    "format": "PNG",
+    "byte_size": 1331673,
+    "width_px": 1254,
+    "height_px": 1254,
+    "color_mode": "8-bit/color RGB, non-interlaced",
+    "embedded_color_profile": null,
+    "sha256": "a90dc8fa44607368b6b146d6fece33974a91a1cd424ace6d6e9efbd39b089805",
+    "creation_timestamp_low_trust": "2026-07-21 16:38:17 +0800",
+    "modification_timestamp_low_trust": "2026-07-21 16:38:17 +0800"
+  },
+  "identity_assessment": {
+    "exact_reviewed_human_source": true,
+    "evidence": [
+      "Exact pathname and filename recorded by approved interpretation",
+      "Direct visual content match to reviewed Human reference"
+    ],
+    "repository_copy_unmodified_from_reviewed_source": true,
+    "upstream_crop_resize_screenshot_history": "UNRESOLVED",
+    "substitution_used": false
+  },
+  "repository_copy": {
+    "relative_path": "ProductionAssets/Characters/DuckMascot/00_Reference/HumanSource/Crest/v001/Front_Crest_HumanInterpretationSource_v001.png",
+    "byte_size": 1331673,
+    "sha256": "a90dc8fa44607368b6b146d6fece33974a91a1cd424ace6d6e9efbd39b089805",
+    "equal_byte_size": true,
+    "equal_sha256": true,
+    "zero_byte_difference": true,
+    "renaming_only": true
+  },
+  "provenance_records": [
+    "ProductionAssets/Characters/DuckMascot/00_Reference/HumanSource/Crest/v001/Front_Crest_HumanInterpretationSource_v001_Provenance.md",
+    "ProductionAssets/Characters/DuckMascot/00_Reference/HumanSource/Crest/v001/Front_Crest_HumanInterpretationSource_v001_Provenance.json"
+  ],
+  "active_dependency": "ProductionAssets/Characters/DuckMascot/00_Reference/HumanSource/Crest/v001/Front_Crest_HumanInterpretationSource_v001.png",
+  "historical_provenance_only_after_approval": "/Users/dave/Desktop/fd081055-ae0d-4e5e-97f8-aa3572e20195.png",
+  "recalculated_preservation_plan": {
+    "authorities_in_scope": 16,
+    "authorities_with_complete_dependency_closure": 16,
+    "proposed_file_count": 163,
+    "proposed_total_size_bytes": 21781555,
+    "proposed_total_size_mib_approx": 20.77,
+    "binary_png_files": 120,
+    "commit_a_files": 68,
+    "commit_b_files": 94,
+    "commit_c_files": 1,
+    "unresolved_external_dependencies": 0,
+    "approval_register_authority_evidence_paths_resolved": 16,
+    "commits_executed": false
+  },
+  "protected_checkpoint": "a4538cdede3ee268834ffcceca9c25f7cc337ae7",
+  "actions_not_performed": [
+    "stage",
+    "commit",
+    "push",
+    "authority geometry modification",
+    "source pixel modification",
+    "external source deletion",
+    ".gitignore modification",
+    "Rive operation"
+  ]
+}

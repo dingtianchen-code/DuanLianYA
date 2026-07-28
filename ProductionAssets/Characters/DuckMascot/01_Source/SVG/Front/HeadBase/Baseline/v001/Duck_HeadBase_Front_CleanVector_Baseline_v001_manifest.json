@@ -1,0 +1,18 @@
+{
+  "name": "Duck Head Base Front Clean Vector Baseline v001",
+  "status": "Approved — Baseline Freeze",
+  "scope": "Front Head Base only",
+  "source_of_truth": "ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png",
+  "geometry_constraint": "Duck Head Geometry Baseline v001",
+  "path_count": 1,
+  "path_command_count": 8,
+  "closed_contours": 1,
+  "cubic_bezier_segments": 6,
+  "image_count": 0,
+  "clip_path_count": 0,
+  "linear_gradient_count": 0,
+  "radial_gradient_count": 1,
+  "scanline_geometry": false,
+  "production_freeze": true,
+  "rive_import_authorized": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Duck Face Geometry Baseline v001",
+  "status": "Approved — Geometry Freeze",
+  "design_review_baseline": "Face Design Review Baseline v001",
+  "head_geometry_baseline": "Duck Head Geometry Baseline v001 (read-only dependency)",
+  "format": "editable scanline geometry JSON + exact-source RGBA layers",
+  "production_svg": "Generated separately; not frozen by this manifest",
+  "views": [
+    "Front",
+    "SideL"
+  ],
+  "back_face_geometry": "none",
+  "visible_layer_counts": {
+    "Front": 12,
+    "SideL": 7
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="450" viewBox="0 0 360 450">
+  <title>Duck Front Tail Geometry Baseline v001</title>
+  <desc>Approved frozen geometry only. Three independent closed Shapes. No Draw Order freeze, Pivot, Rig or animation metadata.</desc>
+  <path id="Tail_L" d="M 184 333 C 177 325 167 321 160 325 C 153 329 153 338 159 345 C 166 353 177 355 186 349 C 191 344 190 338 184 333 Z" fill="#FFD943"/>
+  <path id="Tail_C" d="M 187.5 310 C 197 310 203 319 202 330 C 201 342 196 351 187.5 354 C 179 351 174 342 173 330 C 172 319 178 310 187.5 310 Z" fill="#FFD943"/>
+  <path id="Tail_R" d="M 191 333 C 185 338 184 344 189 349 C 198 355 209 353 216 345 C 222 338 222 329 215 325 C 208 321 198 325 191 333 Z" fill="#FFD943"/>
+</svg>

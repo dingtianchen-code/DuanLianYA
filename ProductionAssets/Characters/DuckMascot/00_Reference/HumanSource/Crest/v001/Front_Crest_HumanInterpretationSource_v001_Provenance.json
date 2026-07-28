@@ -1,0 +1,35 @@
+{
+  "schema": "duck.front-crest-human-interpretation-source-provenance.v1",
+  "status": "BYTE-IDENTICAL REPOSITORY SOURCE COPY — HUMAN VERIFICATION REQUIRED",
+  "external_source": {
+    "historical_absolute_path": "/Users/dave/Desktop/fd081055-ae0d-4e5e-97f8-aa3572e20195.png",
+    "original_filename": "fd081055-ae0d-4e5e-97f8-aa3572e20195.png",
+    "creation_timestamp_low_trust": "2026-07-21 16:38:17 +0800",
+    "modification_timestamp_low_trust": "2026-07-21 16:38:17 +0800"
+  },
+  "repository_copy": {
+    "relative_path": "ProductionAssets/Characters/DuckMascot/00_Reference/HumanSource/Crest/v001/Front_Crest_HumanInterpretationSource_v001.png",
+    "filename": "Front_Crest_HumanInterpretationSource_v001.png"
+  },
+  "file": {
+    "format": "PNG",
+    "byte_size": 1331673,
+    "width_px": 1254,
+    "height_px": 1254,
+    "color_mode": "8-bit/color RGB, non-interlaced",
+    "embedded_color_profile": null,
+    "sha256": "a90dc8fa44607368b6b146d6fece33974a91a1cd424ace6d6e9efbd39b089805"
+  },
+  "identity": {
+    "exact_reviewed_human_source": true,
+    "repository_copy_byte_identical": true,
+    "equal_byte_size": true,
+    "equal_sha256": true,
+    "zero_byte_difference": true,
+    "renaming_only": true,
+    "upstream_crop_resize_screenshot_history": "UNRESOLVED"
+  },
+  "authority_role": "Complete-form interpretation authority for Front Crest L/C/R; Front_MasterCrop.png remains visible Front appearance authority",
+  "active_dependency_after_human_approval": "ProductionAssets/Characters/DuckMascot/00_Reference/HumanSource/Crest/v001/Front_Crest_HumanInterpretationSource_v001.png",
+  "desktop_path_role_after_human_approval": "HISTORICAL PROVENANCE ONLY"
+}
