@@ -1,0 +1,59 @@
+{
+  "schema": "FrontHeadFaceMotionSafeLayerTopologyReview-v001",
+  "status": "HUMAN APPROVAL REQUIRED",
+  "principle": "VISIBLE PIXEL OWNERSHIP != MOTION-SAFE PRODUCTION SHAPE",
+  "proposed_draw_order": [
+    "Head_Underpaint_CONCEPTUAL",
+    "Head_Base_VisibleRaster",
+    "EyeWhite_L_CompleteBacking_CONCEPTUAL",
+    "EyeWhite_R_CompleteBacking_CONCEPTUAL",
+    "EyeDark_L_Group",
+    "EyeDark_R_Group",
+    "Brow_L",
+    "Brow_R",
+    "CheekMark_L",
+    "CheekMark_R",
+    "Beak_Neutral_Group",
+    "Nostril_L",
+    "Nostril_R",
+    "Future_Eyelids_DEFERRED"
+  ],
+  "group_contracts": {
+    "EyeDark_L/R": "Raster texture and vector mask move as one independent group.",
+    "Beak_Neutral": "Nostrils remain independent but inherit Beak group transform; no permanent merge and no animated mouth construction."
+  },
+  "restoration_gate_required": [
+    "Head underpaint behind EyeWhite_L/R",
+    "Head underpaint behind EyeDark_L/R",
+    "Head underpaint behind Brow_L/R",
+    "Head underpaint behind CheekMark_L/R",
+    "Head underpaint behind Beak and Nostrils",
+    "Complete EyeWhite_L backing beneath EyeDark_L",
+    "Complete EyeWhite_R backing beneath EyeDark_R"
+  ],
+  "no_concealed_restoration_required_for_own_module": [
+    "Brow_L",
+    "Brow_R",
+    "CheekMark_L",
+    "CheekMark_R",
+    "Nostril_L",
+    "Nostril_R",
+    "EyeDark_L Neutral raster carrier for restrained translation",
+    "EyeDark_R Neutral raster carrier for restrained translation",
+    "Beak Neutral raster carrier for restrained translation"
+  ],
+  "production_construction_not_recovered_master": [
+    "Complete Head underpaint",
+    "EyeWhite_L concealed backing under EyeDark_L",
+    "EyeWhite_R concealed backing under EyeDark_R"
+  ],
+  "production_files_created": {
+    "vector_paths": 0,
+    "svg": 0,
+    "production_masks": 0,
+    "restored_rgb": 0,
+    "rive": 0,
+    "rig": 0,
+    "animation": 0
+  }
+}

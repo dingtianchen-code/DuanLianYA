@@ -1,0 +1,118 @@
+{
+  "schema": "FrontEyeWhiteMotionSafeVectorShapeConstructionReview-v001",
+  "status": "HUMAN APPROVAL REQUIRED",
+  "review_only": true,
+  "shapes": {
+    "EyeWhite_L": {
+      "svg_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/EyeWhiteMotionSafeVectorShapeConstructionReview/v001/EyeWhite_L_MotionSafeVectorShape_REVIEW_ONLY_v001.svg",
+      "node_count": 10,
+      "cubic_segment_count": 10,
+      "closed": true,
+      "internal_holes": 0,
+      "self_intersections": 0,
+      "duplicate_consecutive_nodes": 0,
+      "stroke": "none",
+      "fill": "#FFFFFF",
+      "bbox_xyxy": [
+        107,
+        126,
+        161,
+        188
+      ],
+      "visible_ownership_pixels_preserved": 1658,
+      "visible_ownership_pixels_outside_vector": 17,
+      "production_construction_pixels": 1189,
+      "clipped_EyeDark_pixels_by_offset": {
+        "0,0": 0,
+        "-2,0": 0,
+        "2,0": 0,
+        "0,-2": 0,
+        "0,2": 0,
+        "-2,-2": 0,
+        "-2,2": 0,
+        "2,-2": 0,
+        "2,2": 0
+      }
+    },
+    "EyeWhite_R": {
+      "svg_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/EyeWhiteMotionSafeVectorShapeConstructionReview/v001/EyeWhite_R_MotionSafeVectorShape_REVIEW_ONLY_v001.svg",
+      "node_count": 10,
+      "cubic_segment_count": 10,
+      "closed": true,
+      "internal_holes": 0,
+      "self_intersections": 0,
+      "duplicate_consecutive_nodes": 0,
+      "stroke": "none",
+      "fill": "#FFFFFF",
+      "bbox_xyxy": [
+        220,
+        126,
+        274,
+        188
+      ],
+      "visible_ownership_pixels_preserved": 1642,
+      "visible_ownership_pixels_outside_vector": 7,
+      "production_construction_pixels": 1226,
+      "clipped_EyeDark_pixels_by_offset": {
+        "0,0": 0,
+        "-2,0": 0,
+        "2,0": 0,
+        "0,-2": 0,
+        "0,2": 0,
+        "-2,-2": 0,
+        "-2,2": 0,
+        "2,-2": 0,
+        "2,2": 0
+      }
+    }
+  },
+  "motion_offsets": [
+    [
+      -2,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      -2,
+      -2
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "production_authority_granted": false,
+  "R01_preserved_in_vector_backing": true,
+  "R02_source_visible_ownership_excluded": true,
+  "R02_coordinate_inside_complete_backing_as_production_construction": true,
+  "R02_interpretation": "R-02 is not promoted to source-visible ownership and was not used as exterior evidence. If enclosed by the approved smooth solid backing, it is Production Construction only.",
+  "production_files_created": {
+    "review_only_svg": 3,
+    "production_svg": 0,
+    "rive": 0,
+    "hidden_rgb": 0,
+    "gradients": 0,
+    "EyeDark_vector_masks": 0,
+    "rig": 0,
+    "animation": 0
+  }
+}

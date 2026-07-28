@@ -1,0 +1,425 @@
+{
+  "schema": "FrontEyeWhiteVectorVisiblePixelExceptionReview-v001",
+  "status": "HUMAN APPROVAL REQUIRED",
+  "review_only": true,
+  "connectivity": "8-connected",
+  "eyes": {
+    "EyeWhite_L": {
+      "ownership_map": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeWhite_L_ProposedOwnershipMap_v002.png",
+      "ownership_map_sha256": "489a0edbced9382ffe71716be51cfb30799979660524bf8b779d45bbb6883c1a",
+      "review_vector_raster": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/EyeWhiteMotionSafeVectorShapeConstructionReview/v001/EyeWhite_L_VectorShape_Transparent_REVIEW_ONLY_v001.png",
+      "omitted_pixel_count": 17,
+      "connected_cluster_count": 8,
+      "longest_continuous_omitted_run_px": 4,
+      "maximum_inward_contour_deviation_px": 1.0,
+      "any_omission_visible_at_native_size": false,
+      "any_perceived_silhouette_change": false,
+      "clusters": [
+        {
+          "id": "EX-L-01",
+          "class": "exterior antialias fringe",
+          "pixel_count": 1,
+          "bbox_xyxy_inclusive": [
+            107,
+            154,
+            107,
+            154
+          ],
+          "coordinates": [
+            {
+              "x": 107,
+              "y": 154,
+              "rgb": [
+                253,
+                251,
+                243
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 1,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        },
+        {
+          "id": "EX-L-02",
+          "class": "exterior antialias fringe",
+          "pixel_count": 1,
+          "bbox_xyxy_inclusive": [
+            107,
+            161,
+            107,
+            161
+          ],
+          "coordinates": [
+            {
+              "x": 107,
+              "y": 161,
+              "rgb": [
+                255,
+                255,
+                255
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 1,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        },
+        {
+          "id": "EX-L-03",
+          "class": "exterior antialias fringe",
+          "pixel_count": 1,
+          "bbox_xyxy_inclusive": [
+            107,
+            163,
+            107,
+            163
+          ],
+          "coordinates": [
+            {
+              "x": 107,
+              "y": 163,
+              "rgb": [
+                254,
+                255,
+                255
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 1,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        },
+        {
+          "id": "EX-L-04",
+          "class": "isolated raster stair-step",
+          "pixel_count": 4,
+          "bbox_xyxy_inclusive": [
+            107,
+            165,
+            107,
+            168
+          ],
+          "coordinates": [
+            {
+              "x": 107,
+              "y": 165,
+              "rgb": [
+                254,
+                255,
+                255
+              ]
+            },
+            {
+              "x": 107,
+              "y": 166,
+              "rgb": [
+                254,
+                255,
+                255
+              ]
+            },
+            {
+              "x": 107,
+              "y": 167,
+              "rgb": [
+                254,
+                255,
+                255
+              ]
+            },
+            {
+              "x": 107,
+              "y": 168,
+              "rgb": [
+                254,
+                254,
+                243
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 4,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        },
+        {
+          "id": "EX-L-05",
+          "class": "isolated raster stair-step",
+          "pixel_count": 2,
+          "bbox_xyxy_inclusive": [
+            108,
+            171,
+            108,
+            172
+          ],
+          "coordinates": [
+            {
+              "x": 108,
+              "y": 171,
+              "rgb": [
+                254,
+                255,
+                255
+              ]
+            },
+            {
+              "x": 108,
+              "y": 172,
+              "rgb": [
+                254,
+                253,
+                246
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 2,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        },
+        {
+          "id": "EX-L-06",
+          "class": "isolated raster stair-step",
+          "pixel_count": 2,
+          "bbox_xyxy_inclusive": [
+            109,
+            174,
+            109,
+            175
+          ],
+          "coordinates": [
+            {
+              "x": 109,
+              "y": 174,
+              "rgb": [
+                255,
+                255,
+                255
+              ]
+            },
+            {
+              "x": 109,
+              "y": 175,
+              "rgb": [
+                255,
+                255,
+                241
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 2,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        },
+        {
+          "id": "EX-L-07",
+          "class": "exterior antialias fringe",
+          "pixel_count": 1,
+          "bbox_xyxy_inclusive": [
+            110,
+            177,
+            110,
+            177
+          ],
+          "coordinates": [
+            {
+              "x": 110,
+              "y": 177,
+              "rgb": [
+                254,
+                255,
+                255
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 1,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        },
+        {
+          "id": "EX-L-08",
+          "class": "isolated raster stair-step",
+          "pixel_count": 5,
+          "bbox_xyxy_inclusive": [
+            111,
+            179,
+            113,
+            182
+          ],
+          "coordinates": [
+            {
+              "x": 111,
+              "y": 179,
+              "rgb": [
+                254,
+                255,
+                255
+              ]
+            },
+            {
+              "x": 112,
+              "y": 180,
+              "rgb": [
+                254,
+                255,
+                254
+              ]
+            },
+            {
+              "x": 112,
+              "y": 181,
+              "rgb": [
+                254,
+                255,
+                241
+              ]
+            },
+            {
+              "x": 113,
+              "y": 181,
+              "rgb": [
+                254,
+                255,
+                254
+              ]
+            },
+            {
+              "x": 113,
+              "y": 182,
+              "rgb": [
+                253,
+                254,
+                245
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 3,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        }
+      ],
+      "proposed_disposition": "ACCEPT AS CONTROLLED CURVE SMOOTHING"
+    },
+    "EyeWhite_R": {
+      "ownership_map": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002.2/AuthorityMaps/EyeWhite_R_OwnershipAuthorityMap_v002_2.png",
+      "ownership_map_sha256": "51b0d9693872c34e0241c3d2fc5e3bfb72672bf5e613f2c2053a4af639257e06",
+      "review_vector_raster": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/EyeWhiteMotionSafeVectorShapeConstructionReview/v001/EyeWhite_R_VectorShape_Transparent_REVIEW_ONLY_v001.png",
+      "omitted_pixel_count": 7,
+      "connected_cluster_count": 2,
+      "longest_continuous_omitted_run_px": 4,
+      "maximum_inward_contour_deviation_px": 1.0,
+      "any_omission_visible_at_native_size": false,
+      "any_perceived_silhouette_change": false,
+      "clusters": [
+        {
+          "id": "EX-R-01",
+          "class": "exterior antialias fringe",
+          "pixel_count": 1,
+          "bbox_xyxy_inclusive": [
+            220,
+            153,
+            220,
+            153
+          ],
+          "coordinates": [
+            {
+              "x": 220,
+              "y": 153,
+              "rgb": [
+                253,
+                250,
+                241
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 1,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        },
+        {
+          "id": "EX-R-02",
+          "class": "isolated raster stair-step",
+          "pixel_count": 6,
+          "bbox_xyxy_inclusive": [
+            225,
+            183,
+            229,
+            186
+          ],
+          "coordinates": [
+            {
+              "x": 225,
+              "y": 183,
+              "rgb": [
+                254,
+                252,
+                231
+              ]
+            },
+            {
+              "x": 226,
+              "y": 184,
+              "rgb": [
+                255,
+                255,
+                251
+              ]
+            },
+            {
+              "x": 227,
+              "y": 185,
+              "rgb": [
+                255,
+                255,
+                255
+              ]
+            },
+            {
+              "x": 228,
+              "y": 185,
+              "rgb": [
+                254,
+                253,
+                249
+              ]
+            },
+            {
+              "x": 228,
+              "y": 186,
+              "rgb": [
+                254,
+                255,
+                255
+              ]
+            },
+            {
+              "x": 229,
+              "y": 186,
+              "rgb": [
+                254,
+                252,
+                245
+              ]
+            }
+          ],
+          "longest_continuous_run_px": 4,
+          "max_inward_contour_deviation_px": 1.0,
+          "visible_at_native_size": false,
+          "changes_perceived_silhouette": false
+        }
+      ],
+      "proposed_disposition": "ACCEPT AS CONTROLLED CURVE SMOOTHING"
+    }
+  },
+  "conclusion": "SAFE TO ACCEPT AS CONTROLLED CURVE SMOOTHING",
+  "vector_paths_modified": false,
+  "production_authority_granted": false
+}

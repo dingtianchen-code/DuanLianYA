@@ -1,0 +1,143 @@
+{
+  "schema": "FrontHeadFaceSelectiveVectorPlanningReview-v001",
+  "status": "HUMAN APPROVAL REQUIRED",
+  "master_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png",
+  "candidate_manifest": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/HeadFaceNeutralAppearanceExtractionCandidateManifest_v002.json",
+  "modules": {
+    "Head_Base_Neutral": {
+      "classification": "HYBRID RASTER + VECTOR MASK",
+      "estimated_vector_node_count": "16\u201324",
+      "proposed_rive_implementation": "Raster texture clipped by low-node Head structural vector mask",
+      "visual_identity_risk": "High",
+      "animation_benefit": "Medium",
+      "assessment": "Preserve gradients, rim light and soft volume; vector owns support/deformation boundary only.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Head_Base_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/Head_Base_Neutral_PlanningEvidence_v001.png"
+    },
+    "EyeWhite_L_Neutral": {
+      "classification": "VECTOR RECONSTRUCTION RECOMMENDED",
+      "estimated_vector_node_count": "10\u201316",
+      "proposed_rive_implementation": "Independent vector Shape with controlled fill/optional subtle native gradient",
+      "visual_identity_risk": "Medium",
+      "animation_benefit": "High",
+      "assessment": "Simple continuous form; independent eye motion and future eyelid masking benefit.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/EyeWhite_L_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/EyeWhite_L_Neutral_PlanningEvidence_v001.png"
+    },
+    "EyeWhite_R_Neutral": {
+      "classification": "VECTOR RECONSTRUCTION RECOMMENDED",
+      "estimated_vector_node_count": "10\u201316",
+      "proposed_rive_implementation": "Independent vector Shape with controlled fill/optional subtle native gradient",
+      "visual_identity_risk": "Medium",
+      "animation_benefit": "High",
+      "assessment": "Use v002.2 support and preserve repaired continuous white field.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/EyeWhite_R_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/EyeWhite_R_Neutral_PlanningEvidence_v001.png"
+    },
+    "EyeDark_L_Neutral": {
+      "classification": "HYBRID RASTER + VECTOR MASK",
+      "estimated_vector_node_count": "10\u201314",
+      "proposed_rive_implementation": "Neutral raster carrier clipped by independent vector eye-dark mask",
+      "visual_identity_risk": "Medium\u2013High",
+      "animation_benefit": "High",
+      "assessment": "Subtle dark tonal variation is identity-bearing; semantic pupil/iris split remains deferred.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/EyeDark_L_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/EyeDark_L_Neutral_PlanningEvidence_v001.png"
+    },
+    "EyeDark_R_Neutral": {
+      "classification": "HYBRID RASTER + VECTOR MASK",
+      "estimated_vector_node_count": "10\u201314",
+      "proposed_rive_implementation": "Neutral raster carrier clipped by independent vector eye-dark mask",
+      "visual_identity_risk": "Medium\u2013High",
+      "animation_benefit": "High",
+      "assessment": "Avoid inventing iris/pupil semantics while enabling independent eye motion.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/EyeDark_R_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/EyeDark_R_Neutral_PlanningEvidence_v001.png"
+    },
+    "Brow_L_Neutral": {
+      "classification": "VECTOR RECONSTRUCTION RECOMMENDED",
+      "estimated_vector_node_count": "6\u201310",
+      "proposed_rive_implementation": "Independent strokeless filled B\u00e9zier Shape",
+      "visual_identity_risk": "Low\u2013Medium",
+      "animation_benefit": "High",
+      "assessment": "Small controlled curve supports expression and rotation.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Brow_L_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/Brow_L_Neutral_PlanningEvidence_v001.png"
+    },
+    "Brow_R_Neutral": {
+      "classification": "VECTOR RECONSTRUCTION RECOMMENDED",
+      "estimated_vector_node_count": "6\u201310",
+      "proposed_rive_implementation": "Independent strokeless filled B\u00e9zier Shape",
+      "visual_identity_risk": "Low\u2013Medium",
+      "animation_benefit": "High",
+      "assessment": "Reconstruct independently; do not force mirroring of appearance.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Brow_R_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/Brow_R_Neutral_PlanningEvidence_v001.png"
+    },
+    "CheekMark_L_Neutral": {
+      "classification": "VECTOR RECONSTRUCTION RECOMMENDED",
+      "estimated_vector_node_count": "4\u20138",
+      "proposed_rive_implementation": "Independent opacity-controlled vector marks",
+      "visual_identity_risk": "Medium",
+      "animation_benefit": "Medium",
+      "assessment": "Tiny marks benefit from clean scaling; softness must be reproduced deliberately.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/CheekMark_L_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/CheekMark_L_Neutral_PlanningEvidence_v001.png"
+    },
+    "CheekMark_R_Neutral": {
+      "classification": "VECTOR RECONSTRUCTION RECOMMENDED",
+      "estimated_vector_node_count": "4\u20138",
+      "proposed_rive_implementation": "Independent opacity-controlled vector marks",
+      "visual_identity_risk": "Medium",
+      "animation_benefit": "Medium",
+      "assessment": "Maintain source asymmetry and avoid automatic tracing.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/CheekMark_R_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/CheekMark_R_Neutral_PlanningEvidence_v001.png"
+    },
+    "Beak_Neutral": {
+      "classification": "KEEP RASTER",
+      "estimated_vector_node_count": "\u2014",
+      "proposed_rive_implementation": "Approved Neutral raster carrier; future mouth system deferred",
+      "visual_identity_risk": "High",
+      "animation_benefit": "Medium",
+      "assessment": "Gradient, edge treatment and Neutral identity outweigh immediate vector benefit.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Beak_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/Beak_Neutral_PlanningEvidence_v001.png"
+    },
+    "Nostril_L_Neutral": {
+      "classification": "VECTOR RECONSTRUCTION RECOMMENDED",
+      "estimated_vector_node_count": "4\u20136",
+      "proposed_rive_implementation": "Independent small filled vector Shape",
+      "visual_identity_risk": "Low",
+      "animation_benefit": "Medium",
+      "assessment": "Simple semantic mark; retain exact Neutral placement.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Nostril_L_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/Nostril_L_Neutral_PlanningEvidence_v001.png"
+    },
+    "Nostril_R_Neutral": {
+      "classification": "VECTOR RECONSTRUCTION RECOMMENDED",
+      "estimated_vector_node_count": "4\u20136",
+      "proposed_rive_implementation": "Independent small filled vector Shape",
+      "visual_identity_risk": "Low",
+      "animation_benefit": "Medium",
+      "assessment": "Reconstruct independently with controlled anchors.",
+      "source_master_crop": "embedded in per-module evidence",
+      "approved_raster_candidate": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Nostril_R_Neutral_MethodC_Candidate_v002.png",
+      "evidence": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSelectiveVectorReconstructionPlanningReview/v001/ModuleEvidence/Nostril_R_Neutral_PlanningEvidence_v001.png"
+    }
+  },
+  "automatic_trace_production_authority": false,
+  "production_vectors_created": 0,
+  "rive_files_created": 0
+}

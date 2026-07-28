@@ -1,0 +1,110 @@
+{
+  "schema": "RiveAgentImportPackage-v001.1",
+  "status": "APPROVED — RIVE AGENT HANDOFF AUTHORITY — PROTOTYPE PHASE 01A ONLY",
+  "execution_owner": "Rive built-in Agent",
+  "current_gate": "Rive Agent Prototype Phase 01A — Execution Pending in Rive",
+  "supersedes": "../v001/",
+  "supersession_reason": "v001 placed the ClipMask inside the moving EyeDark Group; v001 was never executed",
+  "prototype": "Phase 01A — Front EyeWhite / EyeDark Motion Validation",
+  "canvas": {
+    "width": 360,
+    "height": 450,
+    "coordinate_system": "top-left",
+    "native_origin": [0, 0],
+    "automatic_scaling": false,
+    "automatic_centering": false
+  },
+  "files": [
+    {
+      "name": "EyeWhite_L_ProductionShapeAuthority_v001.svg",
+      "role": "Approved Production Shape Authority",
+      "sha256": "853371584fba5cf56df83fbd596e01122e108343ff44b9ef048f823954a68be8",
+      "byte_identical_to_v001_package": true
+    },
+    {
+      "name": "EyeWhite_R_ProductionShapeAuthority_v001.svg",
+      "role": "Approved Production Shape Authority",
+      "sha256": "99d9f1288448b3946fd2f9a922dd46c004209e7ca28c10343746d95578653862",
+      "byte_identical_to_v001_package": true
+    },
+    {
+      "name": "EyeDark_L_Neutral_MethodC_Candidate_v002.png",
+      "role": "Approved Neutral Raster Appearance Carrier",
+      "sha256": "8e84e778d1fd1ffd72c1d43ce5a68596f6c849f1d6d6430aa1bb0c5c7993e59c",
+      "dimensions": [360, 450],
+      "native_position": [0, 0],
+      "byte_identical_to_v001_package": true
+    },
+    {
+      "name": "EyeDark_R_Neutral_MethodC_Candidate_v002.png",
+      "role": "Approved Neutral Raster Appearance Carrier",
+      "sha256": "0a863e0ace8f0af6b5c13fa11653211be230863b0f11a788c4afc58c9c3d610f",
+      "dimensions": [360, 450],
+      "native_position": [0, 0],
+      "byte_identical_to_v001_package": true
+    }
+  ],
+  "exact_layer_names": [
+    "EyeWhite_L",
+    "EyeWhite_R",
+    "EyeDark_L_ClipContainer",
+    "EyeDark_R_ClipContainer",
+    "EyeDark_L_ClipMask",
+    "EyeDark_R_ClipMask",
+    "EyeDark_L_MotionGroup",
+    "EyeDark_R_MotionGroup",
+    "EyeDark_L_Raster",
+    "EyeDark_R_Raster"
+  ],
+  "hierarchy": {
+    "root_back_to_front": [
+      "EyeWhite_L",
+      "EyeWhite_R",
+      "EyeDark_L_ClipContainer",
+      "EyeDark_R_ClipContainer"
+    ],
+    "EyeDark_L_ClipContainer": [
+      "EyeDark_L_ClipMask",
+      {
+        "EyeDark_L_MotionGroup": ["EyeDark_L_Raster"]
+      }
+    ],
+    "EyeDark_R_ClipContainer": [
+      "EyeDark_R_ClipMask",
+      {
+        "EyeDark_R_MotionGroup": ["EyeDark_R_Raster"]
+      }
+    ]
+  },
+  "stationary_objects": [
+    "EyeWhite_L",
+    "EyeWhite_R",
+    "EyeDark_L_ClipContainer",
+    "EyeDark_R_ClipContainer",
+    "EyeDark_L_ClipMask",
+    "EyeDark_R_ClipMask"
+  ],
+  "translated_objects_only": [
+    "EyeDark_L_MotionGroup",
+    "EyeDark_R_MotionGroup"
+  ],
+  "clip_mask_contract": {
+    "role": "stationary clipping boundary only",
+    "independent_visible_render": false,
+    "explicit_binding_if_required": "Bind each ClipMask as the clip shape for its ClipContainer or clipped MotionGroup content",
+    "inherits_motion_group_translation": false
+  },
+  "authorized_offsets": [
+    [0, 0],
+    [-2, 0],
+    [2, 0],
+    [0, -2],
+    [0, 2],
+    [-2, -2],
+    [-2, 2],
+    [2, -2],
+    [2, 2]
+  ],
+  "timeline_animation_state_machine_authorized": false,
+  "rive_execution_authority": "Rive built-in Agent only; Codex GUI execution prohibited"
+}

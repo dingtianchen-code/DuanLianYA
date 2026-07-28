@@ -1,0 +1,51 @@
+{
+  "schema": "FrontEyeWhiteMotionSafeProductionShapeAuthority-v001",
+  "status": "APPROVED — PRODUCTION SHAPE AUTHORITY ONLY",
+  "canvas": {
+    "width": 360,
+    "height": 450,
+    "viewBox": "0 0 360 450",
+    "coordinate_system": "top-left",
+    "transform": "identity"
+  },
+  "shapes": {
+    "EyeWhite_L": {
+      "file": "EyeWhite_L_ProductionShapeAuthority_v001.svg",
+      "sha256": "853371584fba5cf56df83fbd596e01122e108343ff44b9ef048f823954a68be8",
+      "path_count": 1,
+      "closed_contour_count": 1,
+      "node_count": 10,
+      "cubic_segment_count": 10,
+      "control_point_extent": [107, 126, 161, 187.5],
+      "raster_audit_bounds_xyxy": [107, 126, 161, 188],
+      "self_intersections": 0
+    },
+    "EyeWhite_R": {
+      "file": "EyeWhite_R_ProductionShapeAuthority_v001.svg",
+      "sha256": "99d9f1288448b3946fd2f9a922dd46c004209e7ca28c10343746d95578653862",
+      "path_count": 1,
+      "closed_contour_count": 1,
+      "node_count": 10,
+      "cubic_segment_count": 10,
+      "control_point_extent": [220, 126, 274, 187.5],
+      "raster_audit_bounds_xyxy": [220, 126, 274, 188],
+      "self_intersections": 0
+    }
+  },
+  "combined": {
+    "file": "EyeWhite_LR_ProductionShapeAuthority_v001.svg",
+    "sha256": "1ce2dc52c3fb7800b2c001ac69a1056ed5a685cd4a68dac2ebc1a1db6d388c31",
+    "path_count": 2,
+    "closed_contour_count": 2
+  },
+  "structural_validation": {
+    "strokes": 0,
+    "transforms": 0,
+    "masks": 0,
+    "clips": 0,
+    "raster_images": 0,
+    "gradients": 0,
+    "self_intersections": 0
+  },
+  "authority_limit": "Production Shape Authority only"
+}

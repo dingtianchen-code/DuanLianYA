@@ -1,0 +1,110 @@
+{
+  "schema": "HeadFaceNeutralAppearanceExtractionCandidate-v002",
+  "status": "APPROVED \u2014 METHOD C \u2014 NEUTRAL RASTER APPEARANCE AUTHORITY",
+  "authority_revision": "v002.2",
+  "master_sha256": "89e2498d98a72c147ffcc6f4fcd501fa028f17a83820c7165a5e43049510e3fd",
+  "assets": {
+    "Head_Base_Neutral": {
+      "v001_sha256": "9b7e20ae904fc6d985e5a8e5c88d4d10aa667fe0b0a413e31441be84445dc577",
+      "v002_sha256": "9b7e20ae904fc6d985e5a8e5c88d4d10aa667fe0b0a413e31441be84445dc577",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Head_Base_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 34005
+    },
+    "EyeWhite_L_Neutral": {
+      "v001_sha256": "018c002a877a899d4d10fbbe29635ff9e7c043100146e31e2f384d29139f68fc",
+      "v002_sha256": "018c002a877a899d4d10fbbe29635ff9e7c043100146e31e2f384d29139f68fc",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/EyeWhite_L_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 1675
+    },
+    "EyeWhite_R_Neutral": {
+      "v001_sha256": "6d55a4e3e11cecb2dc373f442723faf11457dcf4bf5a69fbd1d14fa2be4add10",
+      "v002_sha256": "4ee2134efcbe03156dd47253e24bee227a2a7265a8f9e8bdbafd5905f021b9a7",
+      "byte_identical": false,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/EyeWhite_R_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 1649
+    },
+    "EyeDark_L_Neutral": {
+      "v001_sha256": "8e84e778d1fd1ffd72c1d43ce5a68596f6c849f1d6d6430aa1bb0c5c7993e59c",
+      "v002_sha256": "8e84e778d1fd1ffd72c1d43ce5a68596f6c849f1d6d6430aa1bb0c5c7993e59c",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/EyeDark_L_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 900
+    },
+    "EyeDark_R_Neutral": {
+      "v001_sha256": "0a863e0ace8f0af6b5c13fa11653211be230863b0f11a788c4afc58c9c3d610f",
+      "v002_sha256": "0a863e0ace8f0af6b5c13fa11653211be230863b0f11a788c4afc58c9c3d610f",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/EyeDark_R_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 881
+    },
+    "Brow_L_Neutral": {
+      "v001_sha256": "3a39674195ed37807213337b847496197eb73887b0b05df8a05dc1133e20d2d0",
+      "v002_sha256": "3a39674195ed37807213337b847496197eb73887b0b05df8a05dc1133e20d2d0",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Brow_L_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 234
+    },
+    "Brow_R_Neutral": {
+      "v001_sha256": "b6e033ea901d3eaa17647d95e01c7e3a639f3586400831d1be3f0b9a022b6560",
+      "v002_sha256": "b6e033ea901d3eaa17647d95e01c7e3a639f3586400831d1be3f0b9a022b6560",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Brow_R_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 220
+    },
+    "CheekMark_L_Neutral": {
+      "v001_sha256": "82b9f479c51be1a4cdee57a829e887cb44b0b19b32f4f7ee801f3ec74d06d87f",
+      "v002_sha256": "82b9f479c51be1a4cdee57a829e887cb44b0b19b32f4f7ee801f3ec74d06d87f",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/CheekMark_L_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 32
+    },
+    "CheekMark_R_Neutral": {
+      "v001_sha256": "328e8de2422aff54b06251f32a0c60e917492d378ccdbf762640965f93e1da01",
+      "v002_sha256": "328e8de2422aff54b06251f32a0c60e917492d378ccdbf762640965f93e1da01",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/CheekMark_R_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 29
+    },
+    "Beak_Neutral": {
+      "v001_sha256": "cca5b8f638ab184dfd2de11ba77352da711c1b1292dbe3433d32d6bb11dd03dc",
+      "v002_sha256": "cca5b8f638ab184dfd2de11ba77352da711c1b1292dbe3433d32d6bb11dd03dc",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Beak_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 4334
+    },
+    "Nostril_L_Neutral": {
+      "v001_sha256": "cdfe9e368b99b6bab82c9436063c350b5afe6948482a577276810b4a9e4c4e1b",
+      "v002_sha256": "cdfe9e368b99b6bab82c9436063c350b5afe6948482a577276810b4a9e4c4e1b",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Nostril_L_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 24
+    },
+    "Nostril_R_Neutral": {
+      "v001_sha256": "09f33431ca380e51bd8f18b9e1936961414a82942c1da4654854eaa49d2fd02d",
+      "v002_sha256": "09f33431ca380e51bd8f18b9e1936961414a82942c1da4654854eaa49d2fd02d",
+      "byte_identical": true,
+      "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceNeutralAppearanceExtractionCandidate/v002_MethodC/CandidateAssets_REVIEW_ONLY/Nostril_R_Neutral_MethodC_Candidate_v002.png",
+      "pixel_support_count": 22
+    }
+  },
+  "unchanged_candidate_assets": {
+    "required": 11,
+    "verified": 11
+  },
+  "EyeWhite_R": {
+    "old_count": 1525,
+    "new_count": 1649,
+    "R01_added": 124,
+    "R02_remains_transparent": true
+  },
+  "invariants": {
+    "all_off_diagonal_overlaps": 0,
+    "boundary_displacement_px": 0,
+    "mask_expansion_beyond_authorized_R01": 0,
+    "reconstructed_pixels": 0,
+    "synthesized_pixels": 0,
+    "geometry_changes": 0
+  }
+}

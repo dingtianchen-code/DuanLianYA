@@ -1,0 +1,315 @@
+{
+  "schema": "HeadFaceOwnershipAuthority-v002.2",
+  "status": "APPROVED \u2014 CURRENT HEAD / FACE OWNERSHIP AUTHORITY",
+  "master": {
+    "path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/00_Reference/ProportionSheets/Front_MasterCrop.png",
+    "sha256": "89e2498d98a72c147ffcc6f4fcd501fa028f17a83820c7165a5e43049510e3fd"
+  },
+  "change": {
+    "module": "EyeWhite_R",
+    "approved_cluster": "R-01",
+    "pixel_count": 124,
+    "bbox_xyxy": [
+      269,
+      142,
+      274,
+      178
+    ],
+    "coordinate_record": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002.2/EyeWhite_R_R01_ApprovedTransferCoordinates_v002_2.txt",
+    "coordinate_record_sha256": "91e1184a039e865296f15b13e0faa06aeb104300190e449abb326d9e95492f06",
+    "R02": {
+      "coordinate": [
+        242,
+        183
+      ],
+      "status": "DEFERRED \u2014 SINGLE-PIXEL AMBIGUITY \u2014 NON-CONNECTED \u2014 NO CURRENT VISIBLE IMPACT",
+      "remains_transparent": true
+    }
+  },
+  "modules": {
+    "Head_Base": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Head_Base_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "68c2c889642463beff37e225edfc58c2e3fadfca801b93e17dffbed7c0337266",
+      "pixel_count": 34005,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Head_Base_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "68c2c889642463beff37e225edfc58c2e3fadfca801b93e17dffbed7c0337266",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "EyeWhite_L": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeWhite_L_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "489a0edbced9382ffe71716be51cfb30799979660524bf8b779d45bbb6883c1a",
+      "pixel_count": 1675,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeWhite_L_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "489a0edbced9382ffe71716be51cfb30799979660524bf8b779d45bbb6883c1a",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "EyeWhite_R": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002.2/AuthorityMaps/EyeWhite_R_OwnershipAuthorityMap_v002_2.png",
+      "authority_sha256": "51b0d9693872c34e0241c3d2fc5e3bfb72672bf5e613f2c2053a4af639257e06",
+      "pixel_count": 1649,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeWhite_R_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "89e1bda9805fca02817ec34cb633afb76ca2ae5f413a16c71892a893c800cb94",
+      "changed": true,
+      "unchanged_reference": false
+    },
+    "EyeDark_L": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeDark_L_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "d98694ac0fe4a48f3695ca545bd7b32e6575a4d64f05f88d65bfc9734099b6d2",
+      "pixel_count": 900,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeDark_L_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "d98694ac0fe4a48f3695ca545bd7b32e6575a4d64f05f88d65bfc9734099b6d2",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "EyeDark_R": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeDark_R_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "e8b1c62fb0f2e6c7dd5ad2a950c8b4e60c27223f5339c48ec6e018b3631e4db8",
+      "pixel_count": 881,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/EyeDark_R_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "e8b1c62fb0f2e6c7dd5ad2a950c8b4e60c27223f5339c48ec6e018b3631e4db8",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "Brow_L": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Brow_L_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "1b818f90d66f5ad8ef5160da6ed2e7b1e47d31cdffc75c8395ac7fc7babc953c",
+      "pixel_count": 234,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Brow_L_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "1b818f90d66f5ad8ef5160da6ed2e7b1e47d31cdffc75c8395ac7fc7babc953c",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "Brow_R": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Brow_R_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "5ccaa38885a0bb720a570cc4fbefd8ea909737bece3fa569f6ff924c04a52682",
+      "pixel_count": 220,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Brow_R_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "5ccaa38885a0bb720a570cc4fbefd8ea909737bece3fa569f6ff924c04a52682",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "CheekMark_L": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/CheekMark_L_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "569533706ac1c24c8f41cf6e95f949bf87f9576b20105ca005b838faa920804d",
+      "pixel_count": 32,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/CheekMark_L_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "569533706ac1c24c8f41cf6e95f949bf87f9576b20105ca005b838faa920804d",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "CheekMark_R": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/CheekMark_R_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "08a087f081917dcab6f91680dbc92ff1d7f95414818c8232a80638662246950c",
+      "pixel_count": 29,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/CheekMark_R_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "08a087f081917dcab6f91680dbc92ff1d7f95414818c8232a80638662246950c",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "Beak": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Beak_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "3c2ae7e1ea133d87ba2829ea74b3da6f247b31de2276d198509f8dab03fa84ad",
+      "pixel_count": 4334,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Beak_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "3c2ae7e1ea133d87ba2829ea74b3da6f247b31de2276d198509f8dab03fa84ad",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "Nostril_L": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Nostril_L_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "f5bc1e3b349d64ab33d592ef769a9be2734f22bb290da04857e7c19affd8350a",
+      "pixel_count": 24,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Nostril_L_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "f5bc1e3b349d64ab33d592ef769a9be2734f22bb290da04857e7c19affd8350a",
+      "changed": false,
+      "unchanged_reference": true
+    },
+    "Nostril_R": {
+      "authority_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Nostril_R_ProposedOwnershipMap_v002.png",
+      "authority_sha256": "967c59817f10c9af3b71693abd7e512aa044111790e47fe5a7edbeac13af342e",
+      "pixel_count": 22,
+      "prior_path": "/Users/dave/Projects/\u953b\u70bcYA/ProductionAssets/Characters/DuckMascot/02_Candidates/Front/HeadFaceSubmoduleOwnershipReview/v002/ProposedOwnershipMaps_v002/Nostril_R_ProposedOwnershipMap_v002.png",
+      "prior_sha256": "967c59817f10c9af3b71693abd7e512aa044111790e47fe5a7edbeac13af342e",
+      "changed": false,
+      "unchanged_reference": true
+    }
+  },
+  "overlap_matrix": {
+    "Head_Base": {
+      "Head_Base": 34005,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "EyeWhite_L": {
+      "Head_Base": 0,
+      "EyeWhite_L": 1675,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "EyeWhite_R": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 1649,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "EyeDark_L": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 900,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "EyeDark_R": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 881,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "Brow_L": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 234,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "Brow_R": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 220,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "CheekMark_L": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 32,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "CheekMark_R": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 29,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "Beak": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 4334,
+      "Nostril_L": 0,
+      "Nostril_R": 0
+    },
+    "Nostril_L": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 24,
+      "Nostril_R": 0
+    },
+    "Nostril_R": {
+      "Head_Base": 0,
+      "EyeWhite_L": 0,
+      "EyeWhite_R": 0,
+      "EyeDark_L": 0,
+      "EyeDark_R": 0,
+      "Brow_L": 0,
+      "Brow_R": 0,
+      "CheekMark_L": 0,
+      "CheekMark_R": 0,
+      "Beak": 0,
+      "Nostril_L": 0,
+      "Nostril_R": 22
+    }
+  },
+  "all_off_diagonal_overlaps_zero": true,
+  "geometry_changed": false,
+  "mirroring_used": false,
+  "soft_alpha_invented": false,
+  "reconstructed_rgb_pixels": 0,
+  "synthesized_rgb_pixels": 0
+}
